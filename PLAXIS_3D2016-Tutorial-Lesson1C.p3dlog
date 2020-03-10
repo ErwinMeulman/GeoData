@@ -1,0 +1,103 @@
+_initializerectangular SoilContour 0 0 75 75
+_setproperties "Title" "Tutorial 1" "Comments" "Settlements of a foundation" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Full" "ElementType" "10-Noded"
+_borehole 0 0
+_soillayer 0
+_setsoillayerlevel Borehole_1 1 -40
+_set Borehole_1.Head -2
+_soilmat "Comments" "" "MaterialName" "Lacustrine Clay" "Colour" 15262369 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "DefaultValuesFlow" False "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True 3846.15384615385 0.3 30 10 0 0 0 0 17 18 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+_setmaterial Soillayer_1 LacustrineClay
+_soilmat "Comments" "" "MaterialName" "Building" "Colour" 10676870 "MaterialNumber" 0 "SoilModel" 1 "UserDefinedIndex" 0 "DrainageType" 4 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "DefaultValuesFlow" False "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" 13043478.2608696 0.15 0 0 0 0 0 0 50 50 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+_surface 0 0 0 0 18 0 18 18 0
+_addpoint Polygon_1 18 0 0
+_extrude (Polygon_1) 0 0 -2
+_delete Geometry Polygon_1
+_gotomesh
+_refine BoreholeVolume_1_Volume_1_1
+_gotostages
+_phase InitialPhase
+_setcurrentphase Phase_1
+_set Phase_1.Identification "Building"
+_setmaterial BoreholeVolume_1_Volume_1_1 Phase_1 Building
+_sps LacustrineClay "Comments" "" "MaterialName" "Lacustrine Clay" "Colour" 15262369 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "DefaultValuesAdvanced" False "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "DefaultValuesFlow" False "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True 1923.07692307692 0.3 30 10 0 0 0 0 17 18 0 0 1 0 0 0 0 0 192.307692307692 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+_gotostructures
+_decomposesrf Volume_1
+_delete (Polygon_Volume_1_1)
+_plate Polygon_Volume_1_6
+_delete (Polygon_Volume_1_2)
+_delete (Polygon_Volume_1_3)
+_plate (Polygon_Volume_1_5 Polygon_Volume_1_4)
+_platemat "Comments" "" "MaterialName" "Basement floor" "Colour" 16711680 "MaterialNumber" 0 "IsLinear" True "IsIsotropic" True "IsEndBearing" False "NormalX" 0 "NormalY" 0 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "d" 0.5 "w" 15 "E1" 30000000 "E2" 30000000 "Nu12" 0.15 "G12" 13043478.2608696 "G13" 13043478.2608696 "G23" 13043478.2608696 "RayleighAlpha" 0 "RayleighBeta" 0
+_platemat "Comments" "" "MaterialName" "Basement wall" "Colour" 15890743 "MaterialNumber" 0 "IsLinear" True "IsIsotropic" True "IsEndBearing" False "NormalX" 0 "NormalY" 0 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "d" 0.3 "w" 15.5 "E1" 30000000 "E2" 30000000 "Nu12" 0.15 "G12" 13043478.2608696 "G13" 13043478.2608696 "G23" 13043478.2608696 "RayleighAlpha" 0 "RayleighBeta" 0
+_setmaterial Polygon_Volume_1_6.Plate BasementFloor
+_setmaterial Polygon_Volume_1_5.Plate BasementWall
+_setmaterial Polygon_Volume_1_4.Plate BasementWall
+_surfload Polygon_Volume_1_6
+_beam 6 6 0 6 6 -2
+_beam 0 6 -2 18 6 -2
+_beam 6 0 -2 6 18 -2
+_beammat "Comments" "" "MaterialName" "Basement column" "Colour" 16711935 "MaterialNumber" 0 "IsLinear" True "NormalX" 0 "NormalY" 1 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "A" 0.49 "w" 24 "E" 30000000 "Iyy" 0.02 "Izz" 0.02 "Iyz" 0 "nu" 0 "RayleighAlpha" 0 "RayleighBeta" 0
+_beammat "Comments" "" "MaterialName" "Basement beam" "Colour" 15666410 "MaterialNumber" 0 "IsLinear" True "NormalX" 0 "NormalY" 1 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "A" 0.7 "w" 6 "E" 30000000 "Iyy" 0.058 "Izz" 0.029 "Iyz" 0 "nu" 0 "RayleighAlpha" 0 "RayleighBeta" 0
+_setmaterial Line_1.Beam BasementColumn
+_setmaterial Line_3.Beam BasementBeam
+_setmaterial Line_2.Beam BasementBeam
+_sps BasementColumn "Comments" "" "MaterialName" "Basement column" "Colour" 16756223 "MaterialNumber" 0 "IsLinear" True "NormalX" 0 "NormalY" 1 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "A" 0.49 "w" 24 "E" 30000000 "Iyy" 0.02 "Izz" 0.02 "Iyz" 0 "nu" 0 "RayleighAlpha" 0 "RayleighBeta" 0
+_sps BasementColumn "Comments" "" "MaterialName" "Basement column" "Colour" 12714178 "MaterialNumber" 0 "IsLinear" True "NormalX" 0 "NormalY" 1 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "A" 0.49 "w" 24 "E" 30000000 "Iyy" 0.02 "Izz" 0.02 "Iyz" 0 "nu" 0 "RayleighAlpha" 0 "RayleighBeta" 0
+_sps BasementColumn "Comments" "" "MaterialName" "Basement column" "Colour" 54522 "MaterialNumber" 0 "IsLinear" True "NormalX" 0 "NormalY" 1 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "A" 0.49 "w" 24 "E" 30000000 "Iyy" 0.02 "Izz" 0.02 "Iyz" 0 "nu" 0 "RayleighAlpha" 0 "RayleighBeta" 0
+_pointload 6 6 0
+_gotostages
+_setcurrentphase Phase_1
+_set Phase_1.Identification "Excavation"
+_deactivate (Soil_1_Soil_2_1) Phase_1
+_activate Plates Phase_1
+_deactivate Plates Phase_1
+_activate Plate_3 Phase_1
+_deactivate Plate_3 Phase_1
+_activate Plate_2 Phase_1
+_deactivate Plate_2 Phase_1
+_activate Plate_1 Phase_1
+_activate Beams Phase_1
+_gotostructures
+_lineload 0 18 0 18 18 0 18 0 0
+_gotostages
+_setcurrentphase Phase_1
+_activate Plate_2 Phase_1
+_activate Plate_3 Phase_1
+_deactivate Plate_1 Phase_1
+_deactivate Beams Phase_1
+_phase Phase_1
+_setcurrentphase Phase_2
+_set Phase_2.Identification "Construction"
+_activate Plate_1 Phase_2
+_activate Beams Phase_2
+_phase Phase_2
+_setcurrentphase Phase_3
+_set Phase_3.Identification "Loading"
+_activate SurfaceLoads Phase_3
+_set SurfaceLoad_1_1.sigz Phase_3 -5.3
+_activate LineLoads Phase_3
+_set (LineLoad_2_1.qz_start LineLoad_1_1.qz_start) Phase_3 -385
+_activate PointLoads Phase_3
+_set PointLoad_1_1.Fz Phase_3 -11650
+_gotostages
+_setcurrentphase Phase_2
+_setcurrentphase Phase_3
+_gotostructures
+_embeddedbeam Point_10 6 6 -2
+_embeddedbeam Point_11 6 6 -22
+_embeddedbeammat "Comments" "" "MaterialName" "Pile foundation" "Colour" 9392839 "MaterialNumber" 0 "PileType" 0 "PredefinedPileType" 0 "SkinResistance" 0 "SkinResistanceMultiLinear" "Axial skin resistance table" "SkinResistanceTable" "[0, 0, 1, 1]" "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "E" 30000000 "w" 6 "Size" 1.5 "Width" 1.5 "Diameter" 1.5 "Thickness" 0 "A" 1.76714586764426 "Iyy" 0.248504887637474 "Izz" 0.248504887637474 "Iyz" 0 "Tstart" 200 "Tend" 500 "Tmax" 1.0000000000000000E+012 "Fmax" 10000 "nu" 0 "RayleighAlpha" 0 "RayleighBeta" 0
+_setmaterial Line_7.EmbeddedBeam PileFoundation
+_arrayr (Line_7) 2 12 0 0 2 0 12 0
+_delete (Line_6)
+_gotomesh
+_mesh 0.075 256 True
+_gotostages
+_activate Groups InitialPhase
+_deactivate Groups InitialPhase
+_activate Groups InitialPhase
+_deactivate Groups InitialPhase
+_activate Groups InitialPhase
+_deactivate Groups InitialPhase
+_setcurrentphase Phase_1
+_activate EmbeddedBeams Phase_1
+_setcurrentphase Phase_2
+_setcurrentphase Phase_3

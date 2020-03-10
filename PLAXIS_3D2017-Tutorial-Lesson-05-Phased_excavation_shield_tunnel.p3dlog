@@ -1,0 +1,108 @@
+## PLAXIS 3D 2017 Tutorial
+## Lesson 5
+## Phased excavation of a shield tunnel
+_initializerectangular SoilContour -20 0 0 80
+_setproperties "Title" "Tutorial 5" "Comments" "Phased excavation of a shield tunnel" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Full" "ElementType" "10-Noded"
+_bh 0 0
+_soillayer 0
+_soillayer 0
+_soillayer 0
+_setsoillayerlevel Borehole_1 0 2
+_setsoillayerlevel Borehole_1 2 -12
+_setsoillayerlevel Borehole_1 3 -18
+_soilmat "Comments" "" "MaterialName" "Tutorial 5 - Clay" "Colour" 10676870 "MaterialNumber" 14 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 0 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.969899665551839 "KwRefN" 358024.691358024 "VolumetricSpecificStorage" 0 "DrainageConductivity1" 0 "DrainageConductivity2" 0 "Eref" 9999.99999999999 "Eoed" 16049.3827160494 "Vs" 47.6532615183193 "Vp" 99.1981742663532 "Einc" 0 "CVRef" 0 3703.7037037037 0.35 25 5 0 0 0 0 16 18 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.5773817382593 0.5773817382593 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_soilmat "Comments" "" "MaterialName" "Tutorial 5 - Concrete" "Colour" 16377283 "MaterialNumber" 16 "SoilModel" 1 "UserDefinedIndex" 0 "DrainageType" 4 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 0 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.990802675585284 "KwRefN" 1391477272.72727 "VolumetricSpecificStorage" 0 "DrainageConductivity1" 0 "DrainageConductivity2" 0 "Eref" 31000000 "Eoed" 31704545.4545455 "Vs" 2262.67473793671 "Vp" 3394.01210690507 "Einc" 0 "CVRef" 0 14090909.0909091 0.1 0 0 0 0 0 0 27 27 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_soilmat "Comments" "" "MaterialName" "Tutorial 5 - Stiff sand" "Colour" 10283244 "MaterialNumber" 15 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 0 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 2812499.99999999 "VolumetricSpecificStorage" 0 "DrainageConductivity1" 0 "DrainageConductivity2" 0 "Eref" 74999.9999999999 "Eoed" 100961.538461538 "Vs" 129.019097818152 "Vp" 241.372630193099 "Einc" 0 "CVRef" 0 28846.1538461538 0.3 31 1 0 0 0 0 17 20 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.484961925089946 0.484961925089946 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_soilmat "Comments" "" "MaterialName" "Tutorial 5 - Upper sand" "Colour" 15262369 "MaterialNumber" 13 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 0 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "SolidThermalExpansion" 0 "CrossPermeability" 0 "DefaultValuesAdvanced" True "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" True "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.978260869565217 "KwRefN" 487500 "VolumetricSpecificStorage" 0 "DrainageConductivity1" 0 "DrainageConductivity2" 0 "Eref" 13000 "Eoed" 17500 "Vs" 53.7149338419686 "Vp" 100.491439494938 "Einc" 0 "CVRef" 0 5000 0.3 31 1 0 0 0 0 17 20 0 0 1 0 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.484961925089946 0.484961925089946 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_set Soillayer_1.Soil.Material Tutorial5UpperSand
+_set Soillayer_2.Soil.Material Tutorial5Clay
+_set Soillayer_3.Soil.Material Tutorial5StiffSand
+_gotostructures
+_tunnel -49 20 0 1 0 0 0 0 1
+_set Tunnel_1.x 0
+_set Tunnel_1.y 0
+_set Tunnel_1.z -13.25
+_set Tunnel_1.CrossSection.ShapeType "Circular"
+_set Tunnel_1.CrossSection.WholeHalfMode "Left"
+_set Tunnel_1.CrossSection.Segments[0].ArcProperties.Radius 4
+_generatethicklining Tunnel_1.CrossSection 0.25
+_plate Tunnel_1.SliceSurfaces[1]
+_platemat "Comments" "" "MaterialName" "Tutorial 5 - TBM" "Colour" 16711680 "MaterialNumber" 2 "Elasticity" 0 "IsIsotropic" True "PreventPunching" False "NormalX" 0 "NormalY" 0 "NormalZ" 0 "NonSoilSpecificHeatCapacity" 0 "ThermalConductivity" 0 "Density" 0 "ThermalExpansion" 0 "d" 0.17 "w" 247 "E1" 200000000 "E2" 200000000 "Nu12" 0 "G12" 100000000 "G13" 100000000 "G23" 100000000 "sigy11" 0 "sigy22" 0 "W11" 0 "W22" 0 "RayleighAlpha" 0 "RayleighBeta" 0 "Mp11eq" 0 "Mp22eq" 0 "Np1eq" 0 "Np2eq" 0 "AxialStiffness1" 34000000 "AxialStiffness2" 34000000 "FlexuralRigidity1" 81883.3333333334 "FlexuralRigidity2" 81883.3333333334
+_set Tunnel_1.SliceSurfaces[1].Plate.Material Tutorial5TBM
+_neginterface Tunnel_1.SliceSurfaces[1]
+_contraction Tunnel_1.SliceSurfaces[1]
+_set Tunnel_1.SliceSurfaces[1].SurfaceContraction.Distribution "Axial increment"
+_set Tunnel_1.SliceSurfaces[1].SurfaceContraction.C 0.5
+_set Tunnel_1.SliceSurfaces[1].SurfaceContraction.C_inc_axial -0.0667
+_set Tunnel_1.SliceSurfaces[1].SurfaceContraction.Yref 28
+_surfload Tunnel_1.SliceSurfaces[1]
+_set Tunnel_1.SliceSurfaces[1].SurfaceLoad.Distribution "Perpendicular, vertical increment"
+_set Tunnel_1.SliceSurfaces[1].SurfaceLoad.sign_ref -100
+_set Tunnel_1.SliceSurfaces[1].SurfaceLoad.sign_inc -20
+_set Tunnel_1.SliceSurfaces[1].SurfaceLoad.Zref -4.75
+_surfload (Tunnel_1.PlaneSurfaces[1] Tunnel_1.PlaneSurfaces[0])
+_set (Tunnel_1.PlaneSurfaces[1].SurfaceLoad.Distribution Tunnel_1.PlaneSurfaces[0].SurfaceLoad.Distribution) "Perpendicular, vertical increment"
+_set (Tunnel_1.PlaneSurfaces[1].SurfaceLoad.sign_ref Tunnel_1.PlaneSurfaces[0].SurfaceLoad.sign_ref) -90
+_set (Tunnel_1.PlaneSurfaces[1].SurfaceLoad.sign_inc Tunnel_1.PlaneSurfaces[0].SurfaceLoad.sign_inc) -14
+_set (Tunnel_1.PlaneSurfaces[1].SurfaceLoad.Zref Tunnel_1.PlaneSurfaces[0].SurfaceLoad.Zref) -4.75
+_add Tunnel_1.Trajectory
+_set Tunnel_1.Trajectory.Segments[0].LineProperties.Length 25
+_add Tunnel_1.Trajectory
+_set Tunnel_1.Trajectory.Segments[1].LineProperties.Length 16.5
+_set Tunnel_1.Slicing[1].SlicingMethod "Length"
+_set Tunnel_1.Slicing[1].SliceLength 1.5
+_regeneratetunnelphases Tunnel_1
+_deactivate (TCS_1_Soil_1_1 TCS_1_Soil_2_1) Phase_2
+_set (TCS_1_WaterConditions_1_1.Conditions TCS_1_WaterConditions_2_1.Conditions) Phase_2 "Dry"
+_activate (TCS_1_NegativeInterface_1_1) Phase_2
+_activate (TCS_1_Plate_1_1) Phase_2
+_activate (TCS_1_SurfaceContraction_1_1) Phase_2
+_activate (TCS_2_SurfaceLoad_1_1 TCS_2_SurfaceLoad_2_1) Phase_1
+_addtunnelphasestep Tunnel_1.PhasesDefinition
+_addtunnelphasestep Tunnel_1.PhasesDefinition
+_addtunnelphasestep Tunnel_1.PhasesDefinition
+_addtunnelphasestep Tunnel_1.PhasesDefinition
+_addtunnelphasestep Tunnel_1.PhasesDefinition
+_set TCS_1_SurfaceContraction_1_1.Distribution Phase_12 "Uniform"
+_addtunnelphasestep Tunnel_1.PhasesDefinition
+_deactivate (TCS_1_NegativeInterface_1_1) Phase_14
+_deactivate (TCS_1_Plate_1_1) Phase_14
+_deactivate (TCS_1_SurfaceContraction_1_1) Phase_14
+_activate (TCS_1_SurfaceLoad_1_1) Phase_14
+_activate (TCS_2_SurfaceLoad_2_1) Phase_15
+_set TCS_2_SurfaceLoad_2_1.Distribution Phase_15 "Perpendicular"
+_set TCS_2_SurfaceLoad_2_1.sign_ref Phase_15 635.4
+_addtunnelphasestep Tunnel_1.PhasesDefinition
+_deactivate (TCS_1_SurfaceLoad_1_1) Phase_16
+_activate (TCS_1_NegativeInterface_1_1) Phase_16
+_activate (TCS_1_Soil_2_1) Phase_16
+_set TCS_1_Soil_2_1.Material Phase_16 Tutorial5Concrete
+_deactivate (TCS_2_SurfaceLoad_2_1) Phase_17
+_generatetunnel Tunnel_1
+_gotomesh
+_mesh 0.05 256 True
+_gotostages
+_phase InitialPhase
+_setcurrentphase Phase_1
+_set Tunnel_1_PhasesDefinition_1_TunnelAdvanceInfo_1_1.AdvancementStep Phase_1 7
+_deactivate (Soil_3_Soil_4_1 Soil_2_Soil_4_1) Phase_1
+_activate (Plate_1_1 Plate_1_2) Phase_1
+_activate (SurfaceContraction_1_1 SurfaceContraction_1_2) Phase_1
+_deactivate (SurfaceLoad_14_2 SurfaceLoad_14_1) Phase_1
+_phase Phase_1
+_setcurrentphase Phase_2
+_set Tunnel_1_PhasesDefinition_1_TunnelAdvanceInfo_1_1.AdvancementStep Phase_2 8
+_set (SurfaceContraction_8_1.Yref SurfaceContraction_5_1.Yref SurfaceContraction_6_1.Yref SurfaceContraction_7_1.Yref SurfaceContraction_9_1.Yref SurfaceContraction_5_2.Yref SurfaceContraction_6_2.Yref SurfaceContraction_7_2.Yref SurfaceContraction_8_2.Yref SurfaceContraction_9_2.Yref) Phase_2 29
+_phase Phase_2
+_setcurrentphase Phase_3
+_advance Tunnel_1 Phase_3
+_set (SurfaceContraction_10_1.Yref SurfaceContraction_9_1.Yref SurfaceContraction_8_1.Yref SurfaceContraction_10_2.Yref SurfaceContraction_9_2.Yref SurfaceContraction_8_2.Yref SurfaceContraction_7_2.Yref SurfaceContraction_7_1.Yref SurfaceContraction_6_2.Yref SurfaceContraction_6_1.Yref) Phase_3 31
+_phase Phase_3
+_setcurrentphase Phase_4
+_advance Tunnel_1 Phase_4
+_set (SurfaceContraction_11_1.Yref SurfaceContraction_10_1.Yref SurfaceContraction_11_2.Yref SurfaceContraction_10_2.Yref SurfaceContraction_9_2.Yref SurfaceContraction_9_1.Yref SurfaceContraction_8_2.Yref SurfaceContraction_8_1.Yref SurfaceContraction_7_2.Yref SurfaceContraction_7_1.Yref) Phase_4 32.5
+_phase Phase_4
+_setcurrentphase Phase_5
+_advance Tunnel_1 Phase_5
+_set (SurfaceContraction_12_1.Yref SurfaceContraction_11_1.Yref SurfaceContraction_12_2.Yref SurfaceContraction_11_2.Yref SurfaceContraction_10_2.Yref SurfaceContraction_10_1.Yref SurfaceContraction_9_2.Yref SurfaceContraction_9_1.Yref SurfaceContraction_8_2.Yref SurfaceContraction_8_1.Yref) Phase_5 34
+# Ready to calculate

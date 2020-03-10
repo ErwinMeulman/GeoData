@@ -1,0 +1,91 @@
+_initializerectangular SoilContour -30 0 30 30
+_setproperties "Title" "Tutorial 3" "Comments" "Loading of a suction pile" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Full" "ElementType" "10-Noded"
+_borehole 0 0
+_soillayer 0
+_setsoillayerlevel Borehole_1 1 -30
+_set Borehole_1.Head 1
+_soilmat "Comments" "" "MaterialName" "Tutorial 3 - Clay" "Colour" 15262369 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 2 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 1 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 0 "SolidThermalExpansion" 0 "CrossPermeability" 0 "DefaultValuesAdvanced" False "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" False "einit" 0.5 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.969899665551839 "KwRefN" 35802.4691358024 "VolumetricSpecificStorage" 0.000279310344827586 "DrainageConductivity1" 0 "DrainageConductivity2" 0 "Eref" 1000 "Eoed" 1604.93827160494 "Vs" 13.4783777461038 "Vp" 28.0574806820253 "Einc" 1000 "CVRef" 0 370.37037037037 0.35 0 1 0 0 4 0 20 20 0 0 0.7 0 0 10000000 0 0 370.37037037037 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_soilmat "Comments" "" "MaterialName" "Tutorial 3 - Interface" "Colour" 10676870 "MaterialNumber" 0 "SoilModel" 2 "UserDefinedIndex" 0 "DrainageType" 2 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 1 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 0 "SolidThermalExpansion" 0 "CrossPermeability" 0 "DefaultValuesAdvanced" False "DataSetFlow" 0 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "UseDefaultsFlow" 0 "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "TensionCutOff" False "einit" 0.499999999999999 "emin" 0 "emax" 998.999999999999 "Dinter" 0 "SkemptonB" 0.969899665551839 "KwRefN" 35802.4691358024 "VolumetricSpecificStorage" 0.000279310344827587 "DrainageConductivity1" 0 "DrainageConductivity2" 0 "Eref" 999.999999999999 "Eoed" 1604.93827160494 "Vs" 13.4783777461038 "Vp" 28.0574806820253 "Einc" 999.999999999999 "CVRef" 0 370.37037037037 0.35 0 1 0 0 4 0 20 20 0 0 1 0 0 10000000 0 0 370.37037037037 0.333333333333333 0 0.999 0 0 0 0 1.0000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0.5 0.5 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 13 77 0 0 0 0 0 0 0
+_setmaterial Soillayer_1 Tutorial3Clay
+_gotostructures
+_polycurve 2.5 0 0 1 0 0 0 1 0
+_add Polycurve_1
+_set Polycurve_1.Segments[0].SegmentType "Arc"
+_set Polycurve_1.Segments[0].ArcProperties.RelativeStartAngle1 90
+_set Polycurve_1.Segments[0].ArcProperties.Radius 2.5
+_set Polycurve_1.Segments[0].ArcProperties.CentralAngle 180
+_extrude (Polycurve_1) 0 0 -10
+_posinterface Surface_1
+_neginterface Surface_1
+_close Polycurve_1
+_surface Polycurve_1
+_neginterface Surface_2
+_set (Surface_2.NegativeInterface.MaterialMode Surface_1.NegativeInterface.MaterialMode Surface_1.PositiveInterface.MaterialMode) "Custom"
+_set (Surface_2.NegativeInterface.Material Surface_1.NegativeInterface.Material Surface_1.PositiveInterface.Material) Tutorial3Interface
+_rigidbody (Surface_2 Surface_1)
+_set (Surface_1.RigidBody.Xref Surface_2.RigidBody.Xref) 2.5
+_set (Surface_1.RigidBody.Yref Surface_2.RigidBody.Yref) 0
+_set (Surface_1.RigidBody.Zref Surface_2.RigidBody.Zref) -7
+_set (Surface_1.RigidBody.TranslationConditiony Surface_2.RigidBody.TranslationConditiony) "Displacement"
+_set (Surface_1.RigidBody.RotationConditionx Surface_2.RigidBody.RotationConditionx) "Rotation"
+_set (Surface_1.RigidBody.RotationConditionz Surface_2.RigidBody.RotationConditionz) "Rotation"
+_polycurve 7.5 0 0 1 0 0 0 1 0
+_add Polycurve_2
+_set Polycurve_2.Segments[0].SegmentType "Arc"
+_set Polycurve_2.Segments[0].ArcProperties.RelativeStartAngle1 90
+_set Polycurve_2.Segments[0].ArcProperties.Radius 7.5
+_set Polycurve_2.Segments[0].ArcProperties.CentralAngle 180
+_close Polycurve_2
+_extrude Polycurve_2 0 0 -15
+_delete Geometry (Polycurve_1 Polycurve_2)
+_gotomesh
+_set (Surface_1_1.CoarsenessFactor Surface_2_1.CoarsenessFactor Surface_3_2.CoarsenessFactor) 0.25
+_mesh 0.05 256 True 1.2 0.005
+_gotostages
+_phase InitialPhase
+_set Model.CurrentPhase Phase_1
+_set Phase_1.Identification "Install pile"
+_set Phase_1.Deform.IgnoreUndrainedBehaviour True
+_activate RigidBodies Phase_1
+_activate Interfaces Phase_1
+_phase Phase_1
+_set Model.CurrentPhase Phase_2
+_set Phase_2.Identification "Load pile 30 degrees"
+_set Phase_2.Deform.ResetDisplacementsToZero True
+_set Phase_2.Solver "Pardiso (multicore direct)"
+_set Phase_2.Deform.UseDefaultIterationParams False
+_set Phase_2.Deform.MaxLoadFractionPerStep 0.1
+_set (RigidBody_1_1.Fx RigidBody_2_1.Fx) Phase_2 1949
+_set (RigidBody_1_1.Fz RigidBody_2_1.Fz) Phase_2 1125
+_set Model.CurrentPhase Phase_1
+_phase Phase_1
+_set Model.CurrentPhase Phase_3
+_set Phase_3.Identification "Load pile 40 degrees"
+_set Phase_3.Deform.ResetDisplacementsToZero True
+_set Phase_3.Solver "Pardiso (multicore direct)"
+_set Phase_3.Deform.UseDefaultIterationParams False
+_set Phase_3.Deform.MaxLoadFractionPerStep 0.1
+_set (RigidBody_1_1.Fx RigidBody_2_1.Fx) Phase_3 1724
+_set (RigidBody_1_1.Fz RigidBody_2_1.Fz) Phase_3 1447
+_set Model.CurrentPhase Phase_1
+_phase Phase_1
+_set Model.CurrentPhase Phase_4
+_set Phase_4.Identification "Load pile 50 degrees"
+_set Phase_4.Deform.ResetDisplacementsToZero True
+_set Phase_4.Solver "Pardiso (multicore direct)"
+_set Phase_4.Deform.UseDefaultIterationParams False
+_set Phase_4.Deform.MaxLoadFractionPerStep 0.1
+_set (RigidBody_1_1.Fx RigidBody_2_1.Fx) Phase_4 1447
+_set (RigidBody_1_1.Fz RigidBody_2_1.Fz) Phase_4 1724
+_set Model.CurrentPhase Phase_1
+_set Model.CurrentPhase Phase_4
+_set Model.CurrentPhase Phase_1
+_phase Phase_1
+_set Model.CurrentPhase Phase_5
+_set Phase_5.Identification "Load pile 60 degrees"
+_set Phase_5.Deform.ResetDisplacementsToZero True
+_set Phase_5.Solver "Pardiso (multicore direct)"
+_set Phase_5.Deform.UseDefaultIterationParams False
+_set Phase_5.Deform.MaxLoadFractionPerStep 0.1
+_set (RigidBody_1_1.Fx RigidBody_2_1.Fx) Phase_5 1125
+_set (RigidBody_1_1.Fz RigidBody_2_1.Fz) Phase_5 1949

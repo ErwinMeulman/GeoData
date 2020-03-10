@@ -1,0 +1,55 @@
+#+----------------------------+#
+#|                            |#
+#| PLAXIS 3D VALIDATION CASE  |#
+#| Unrained soil behaviour    |#
+#| Version: PLAXIS 3D 2018.00 |#
+#| Comments:                  |#
+#|                            |#
+#+----------------------------+#
+# Materials
+_initializerectangular SoilContour 0 0 4 1
+_setproperties "Title" "UNDRAINED SOIL BEHAVIOUR" "Comments" "" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "ModelType" "Full" "ElementType" "10-Noded"
+_soilmat "Comments" "" "MaterialName" "Fully saturated soil" "Colour" 15262369 "MaterialNumber" 0 "SoilModel" 1 "UserDefinedIndex" 0 "DrainageType" 1 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "DefaultValuesAdvanced" True "DataSetFlow" 4 "ModelFlow" 0 "UDModelFlow" 3 "SoilTypeFlow" 0 "LowerUpper" 0 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "DefaultValuesFlow" False "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" 500 0 0 0 0 0 0 0 20 20 1 1 1 1 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.00000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 1 0 0 -1 -1.82 0 0 10000 1 0.0683060109289618 4.3 1.5206 1.25 0 6 400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+_soilmat "Comments" "" "MaterialName" "Unsaturated coarse material" "Colour" 10676870 "MaterialNumber" 0 "SoilModel" 1 "UserDefinedIndex" 0 "DrainageType" 1 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "DefaultValuesAdvanced" True "DataSetFlow" 1 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 0 "LowerUpper" 1 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "DefaultValuesFlow" False "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" 500 0 0 0 0 0 0 0 20 20 1 1 1 1 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.00000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 1 0 0 -1.06 -2.37 0 0 10000 1 0.0620347394540943 3.83 1.3774 1.25 0 1 150 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+_soilmat "Comments" "" "MaterialName" "Unsaturated fine material" "Colour" 10283244 "MaterialNumber" 0 "SoilModel" 1 "UserDefinedIndex" 0 "DrainageType" 1 "DilatancyCutOff" False "UndrainedBehaviour" 0 "InterfaceStrength" 0 "ConsiderGapClosure" True "K0PrimaryIsK0Secondary" True "K0Determination" 1 "DefaultValuesAdvanced" True "DataSetFlow" 1 "ModelFlow" 0 "UDModelFlow" 0 "SoilTypeFlow" 3 "LowerUpper" 1 "UsdaSoilType" 0 "StaringUpperSoilType" 0 "StaringLowerSoilType" 0 "M50" 0 "DefaultValuesFlow" False "TablePsiPermSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiPerm" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" "SplinePsiSat" "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" 500 0 0 0 0 0 0 0 20 20 1 1 1 1 0 0 0 0 0 0.333333333333333 0 0.999 0 0 0 0 1.00000000000000000E+015 0.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 1 0 0 -0.5 -7.12 0 0 10000 1 0.0192307692307692 3.67 1.1012 -1.9772 0 1 153 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+# Geometry
+_gotostructures
+_surface 0 0 0 0 0 2 1 0 2 1 0 0
+_arrayr (Polygon_1) 3 1.5 0 0
+_extrude (Polygon_1 Polygon_2 Polygon_3) 0 1 0
+_delete (Polygon_3 Polygon_2 Polygon_1)
+_setmaterial Volume_1.Soil FullySaturatedSoil
+_setmaterial Volume_2.Soil UnsaturatedCoarseMaterial
+_setmaterial Volume_3.Soil UnsaturatedFineMaterial
+_surfload 0 0 2 1 0 2 1 1 2 0 1 2
+_set Polygon_1.SurfaceLoad.sigz -10
+_arrayr (Polygon_1) 3 1.5 0 0
+_surfdispl 1 0 2 1 0 0 1 1 0 1 1 2
+_set Polygon_4.SurfaceDisplacement.Displacement_z "Free"
+_set Polygon_4.SurfaceDisplacement.Displacement_y "Fixed"
+_set Polygon_4.SurfaceDisplacement.Displacement_x "Fixed"
+_arrayr (Polygon_4) 2 0.5 0 0
+_arrayr (Polygon_4 Polygon_5) 2 1.5 0 0
+_surface 0 0 1 1 0 1 1 1 1 0 1 1
+_arrayr (Polygon_8) 3 1.5 0 0
+_surfgwfbc (Polygon_4 Polygon_5 Polygon_6 Polygon_7)
+_set (Polygon_4.SurfaceGWFlowBC.Behaviour Polygon_5.SurfaceGWFlowBC.Behaviour Polygon_6.SurfaceGWFlowBC.Behaviour Polygon_7.SurfaceGWFlowBC.Behaviour) "Closed"
+# Mesh
+_gotomesh
+_set (Volume_3_2.CoarsenessFactor Polygon_7_2.CoarsenessFactor Polygon_6_2.CoarsenessFactor Volume_2_2.CoarsenessFactor Polygon_5_2.CoarsenessFactor Polygon_4_2.CoarsenessFactor Volume_1_2.CoarsenessFactor Polygon_10_1.CoarsenessFactor Polygon_9_1.CoarsenessFactor Polygon_8_1.CoarsenessFactor Volume_3_1.CoarsenessFactor Polygon_7_1.CoarsenessFactor Polygon_6_1.CoarsenessFactor Volume_2_1.CoarsenessFactor Polygon_5_1.CoarsenessFactor Polygon_4_1.CoarsenessFactor Volume_1_1.CoarsenessFactor Polygon_3_1.CoarsenessFactor Polygon_2_1.CoarsenessFactor Polygon_1_1.CoarsenessFactor) 1
+_set (Polygon_8_1.CoarsenessFactor Polygon_9_1.CoarsenessFactor Polygon_10_1.CoarsenessFactor) 0.2
+_mesh 0.035 # fine
+# Waterflow
+_gotowater
+_waterlevel 0 0 1
+# Calculation Stages
+_gotostages
+_phase InitialPhase
+_set InitialPhase.Deform.IgnoreSuction Phase_1.Deform.IgnoreSuction False
+_set InitialPhase.MaxStepsStored Phase_1.MaxStepsStored 10
+_activate Soils InitialPhase
+_activate SurfaceDisplacements InitialPhase
+_set Water.GlobalWaterLevel InitialPhase UserWaterLevel_1
+_activate SurfaceGroundwaterFlowBcs InitialPhase
+_activate SurfaceLoads Phase_1
+# Run calculation and check results
