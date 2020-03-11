@@ -1,0 +1,2534 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+<assemblyIdentity name="agstoexcel.exe" version="10.0.0.0" type="win32" processorArchitecture="x86"/>
+
+<description>Side by side manifest. Created with gINT Software SxS Manifest maker v10.0.0.4</description>
+
+<dependency>
+ <dependentAssembly>
+   <assemblyIdentity
+     name="gIntLIB"
+     version="10.0.0.69"
+     processorArchitecture="MSIL"
+     publicKeyToken="3ad33fc683e971a2"
+   />
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+   <assemblyIdentity
+     name="gIntGGL"
+     version="10.0.0.69"
+     processorArchitecture="MSIL"
+     publicKeyToken="3ad33fc683e971a2"
+   />
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+   <assemblyIdentity
+     name="gIntXML"
+     version="10.0.0.69"
+     processorArchitecture="MSIL"
+     publicKeyToken="3ad33fc683e971a2"
+   />
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+   <assemblyIdentity
+     name="gIntHEX"
+     version="10.0.0.69"
+     processorArchitecture="MSIL"
+     publicKeyToken="3ad33fc683e971a2"
+   />
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+   <assemblyIdentity
+     name="gIntUTL"
+     version="10.0.0.69"
+     processorArchitecture="MSIL"
+     publicKeyToken="3ad33fc683e971a2"
+   />
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+   <assemblyIdentity
+     name="gIntDLG"
+     version="10.0.0.69"
+     processorArchitecture="MSIL"
+     publicKeyToken="3ad33fc683e971a2"
+   />
+ </dependentAssembly>
+</dependency>
+
+<file name="Aux8\gIntE.dll" hashalg="SHA1">
+  <comClass
+    clsid="{003D531B-A110-4B1A-9B6D-0033CDA1C621}"
+    description="gintE.enumsQuery"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.enumsQuery"/>
+  <comClass
+    clsid="{02676FF9-6F6A-48D0-A539-7023E54CCEA4}"
+    description="gintE.enumsCmds"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.enumsCmds"/>
+  <comClass
+    clsid="{09FEB4F3-8478-4472-B38A-89B641E68EFC}"
+    description="gintE.clsListboxConstants"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.clsListboxConstants"/>
+  <comClass
+    clsid="{1BFAA83B-66A2-45BE-89F9-4DBA8ECD6CFD}"
+    description="gintE.enumsAxdbfld"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.enumsAxdbfld"/>
+  <comClass
+    clsid="{35A0165C-6562-49AF-BB72-5A6E43FB077F}"
+    description="gintE.clsLibPageEntConst"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.clsLibPageEntConst"/>
+  <comClass
+    clsid="{553AE661-5988-41A9-A672-0DB5ED72CB9E}"
+    description="gintE.clsxProperty_Const"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.clsxProperty_Const"/>
+  <comClass
+    clsid="{55BBC2E7-F87C-47CD-B5C1-8D095623697B}"
+    description="gintE.enumsAX0"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.enumsAX0"/>
+  <comClass
+    clsid="{E63CCDE8-6498-4ECD-AF61-E0748B909A62}"
+    description="gintE.clsDialogConstants"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.clsDialogConstants"/>
+  <comClass
+    clsid="{F4A419CD-BC87-4AF1-8782-D850A7EF1EEC}"
+    description="gintE.clsGIDConst"
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    threadingModel="Apartment"
+    progid="gintE.clsGIDConst"/>
+  <typelib
+    tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+    version="2.1"
+    helpdir="bin"
+    flags="hasdiskimage"/>
+</file>
+
+<file name="Aux8\gIntA.dll" hashalg="SHA1">
+  <comClass
+    clsid="{01F88CEE-221F-4E08-B13C-73E4A130F7EA}"
+    description="gIntA.CManageBrushes"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CManageBrushes"/>
+  <comClass
+    clsid="{036B25F5-418C-48B4-BCAC-FA005589DBB3}"
+    description="gIntA.CStringBuild"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CStringBuild"/>
+  <comClass
+    clsid="{06002D63-E29B-46CA-A4F6-045E570DB5E6}"
+    description="gIntA.CAlignment"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    progid="gIntA.CAlignment"/>
+  <comClass
+    clsid="{065003F4-18CC-4496-9D31-EF60B41E56BF}"
+    description="gIntA.CCompareLibs"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CCompareLibs"/>
+  <comClass
+    clsid="{06C9626F-DD0C-418E-B47F-6E50FD36889B}"
+    description="gIntA.CHyprlinks"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CHyprlinks"/>
+  <comClass
+    clsid="{0A103469-770C-4221-B6A1-7F26D78EB7FF}"
+    description="gIntA.CPDFDyna"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CPDFDyna"/>
+  <comClass
+    clsid="{0AAA6DA1-4936-4F98-9A46-5BD933A36773}"
+    description="gIntA.clsUnionFunction"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsUnionFunction"/>
+  <comClass
+    clsid="{0C03C17B-5899-43D2-B3D6-FB15EBF63B9A}"
+    description="gIntA.CWHProperties"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CWHProperties"/>
+  <comClass
+    clsid="{0DDC5EF9-BA3B-4143-84D5-94A4C82531D3}"
+    description="gIntA.CDBCompare"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDBCompare"/>
+  <comClass
+    clsid="{11D8EF37-F605-430C-AEE7-CDEE03AFFCC5}"
+    description="gIntA.CGGLAlias"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGGLAlias"/>
+  <comClass
+    clsid="{1349DACF-C3CF-4E83-993E-37863DFDB376}"
+    description="gIntA.CDataIOGEO5"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataIOGEO5"/>
+  <comClass
+    clsid="{137D50DF-3CC6-47C2-B005-9E4DA899C923}"
+    description="gIntA.clsWebbrowser"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsWebbrowser"/>
+  <comClass
+    clsid="{1438B3A2-0D60-47D2-AD47-45AB8CFBA74D}"
+    description="gIntA.CMsgBoxCustom"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CMsgBoxCustom"/>
+  <comClass
+    clsid="{153D4410-E5FD-4244-8465-EE3ED50430C8}"
+    description="gIntA.CSpecialChar"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CSpecialChar"/>
+  <comClass
+    clsid="{15635055-2779-4D98-8EA5-9279BAD7D895}"
+    description="gIntA.CComboAx"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CComboAx"/>
+  <comClass
+    clsid="{194E0A56-31F7-4D55-93F7-41BB7EF242DB}"
+    description="gIntA.CAGS"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAGS"/>
+  <comClass
+    clsid="{19B69CC2-8C30-4B17-923D-6EBB24A022A4}"
+    description="gIntA.CGIDSave"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDSave"/>
+  <comClass
+    clsid="{1B309F2E-AF50-439F-B9AA-F4ED320EBF62}"
+    description="gIntA.CTableDataCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CTableDataCollection"/>
+  <comClass
+    clsid="{1C25AC3D-1808-4B47-910D-C44D96DB3ACA}"
+    description="gIntA.CASCIIFile"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CASCIIFile"/>
+  <comClass
+    clsid="{24C37666-4861-4EE9-AF9C-12BB5B52AEFA}"
+    description="gIntA.CPDFAmyuni"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CPDFAmyuni"/>
+  <comClass
+    clsid="{256F1F07-40A1-486B-A6A3-3FE895E4B78D}"
+    description="gIntA.CDialogAttrCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDialogAttrCollection"/>
+  <comClass
+    clsid="{268EC8FE-610A-4472-8871-310BE7A496C0}"
+    description="gIntA.CPlaxisExport"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CPlaxisExport"/>
+  <comClass
+    clsid="{2B9728D1-F2F3-4761-8AE5-0FF902ADEB63}"
+    description="gIntA.CGDIZone"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGDIZone"/>
+  <comClass
+    clsid="{2DB20DC0-F594-4A4B-89E9-D3B78644D8CD}"
+    description="gIntA.clsRelationsCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsRelationsCollection"/>
+  <comClass
+    clsid="{2E48C3C2-8CFA-4B6F-84F3-8431EFC3486E}"
+    description="gIntA.CCompanyInfo"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CCompanyInfo"/>
+  <comClass
+    clsid="{351DDEBA-57F3-4E4F-BE3B-CE2E6463AB35}"
+    description="gIntA.CGIDHatchOutput"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDHatchOutput"/>
+  <comClass
+    clsid="{355B8093-9E66-4E48-AC2E-FC9232503C15}"
+    description="gIntA.CDataIOPGF"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataIOPGF"/>
+  <comClass
+    clsid="{36C70B97-26BA-4DBF-A9DA-33BC9AD76AAA}"
+    description="gIntA.clsNewDatabaseTable"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsNewDatabaseTable"/>
+  <comClass
+    clsid="{385C8A5C-0296-42E0-9D38-DB13BA68C00F}"
+    description="gIntA.CAx0"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAx0"/>
+  <comClass
+    clsid="{3975E708-5CF1-436F-ABD0-DA39D865F3D3}"
+    description="gIntA.CGIDComparePages"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDComparePages"/>
+  <comClass
+    clsid="{3AA47A63-2799-43FA-A6BB-E783E59A10EA}"
+    description="gIntA.clsAlignments"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsAlignments"/>
+  <comClass
+    clsid="{3D03DFC3-A770-42DD-8213-E51FFE63A9A7}"
+    description="gIntA.CGID"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGID"/>
+  <comClass
+    clsid="{3F28042A-F8A7-4557-B5A0-31CBBE0DECE8}"
+    description="gIntA.CDataIOKML"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataIOKML"/>
+  <comClass
+    clsid="{423EA6E2-F31D-49BA-A854-FB06BF1AAC7C}"
+    description="gIntA.clsIOFileCache"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsIOFileCache"/>
+  <comClass
+    clsid="{42C298F1-C123-4510-95B2-1B64CDBED894}"
+    description="gIntA.clsGroupData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsGroupData"/>
+  <comClass
+    clsid="{46AD929B-5295-4C2E-9B79-059F6D9A31DB}"
+    description="gIntA.CGIDPage"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDPage"/>
+  <comClass
+    clsid="{48047FEE-868A-46C6-9879-A012F34C8E00}"
+    description="gIntA.CGIDLines"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDLines"/>
+  <comClass
+    clsid="{491CA5B7-F2E1-481A-A237-06347A26E32B}"
+    description="gIntA.CMultiText"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CMultiText"/>
+  <comClass
+    clsid="{4C3CEA26-FE7F-41D5-8EF9-393FA9EC95DB}"
+    description="gIntA.CMsgBoxGint"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CMsgBoxGint"/>
+  <comClass
+    clsid="{4C83139E-986F-411D-A56B-0574B5C0913E}"
+    description="gIntA.clsFieldOrg"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsFieldOrg"/>
+  <comClass
+    clsid="{5218040B-50BF-44C9-9714-211CC3106A09}"
+    description="gIntA.CBitmapSymbols"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CBitmapSymbols"/>
+  <comClass
+    clsid="{54C48CFC-7C1E-4197-9DB6-8CF54E3B011A}"
+    description="gIntA.CSymbolsOutput"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CSymbolsOutput"/>
+  <comClass
+    clsid="{55488B0C-2110-4855-8A83-FA75B2267555}"
+    description="gIntA.CManageFonts"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CManageFonts"/>
+  <comClass
+    clsid="{558EDA62-0ADA-4AFD-B34B-9F6C6C474842}"
+    description="gIntA.CDBConsol"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDBConsol"/>
+  <comClass
+    clsid="{55BA735A-FE94-4953-88ED-659487D720E0}"
+    description="gIntA.CRegistryOps"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CRegistryOps"/>
+  <comClass
+    clsid="{57FFCB69-4251-4DD7-8F47-F40A3ABB0C72}"
+    description="gIntA.CEntityAttrCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CEntityAttrCollection"/>
+  <comClass
+    clsid="{5AF4946C-6B09-4E8B-AF1A-EE75301A334D}"
+    description="gIntA.CGradSpec"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGradSpec"/>
+  <comClass
+    clsid="{6515C945-9B25-447B-B440-3D3CF6F23E5E}"
+    description="gIntA.CCallBacks"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CCallBacks"/>
+  <comClass
+    clsid="{652F446D-87AF-47EC-BDC5-C7AE407F4759}"
+    description="gIntA.CDataIOLogPlot"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataIOLogPlot"/>
+  <comClass
+    clsid="{664D540C-EF61-4A59-9888-212E62721CF9}"
+    description="gIntA.CXML"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CXML"/>
+  <comClass
+    clsid="{6A472925-0477-4736-8417-39F40EE8B06B}"
+    description="gIntA.CGIDDisplay"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDDisplay"/>
+  <comClass
+    clsid="{6DCC7657-5D4E-4777-84D7-2B10DC18E0F0}"
+    description="gIntA.CECW"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CECW"/>
+  <comClass
+    clsid="{76121EF9-9101-482E-BD12-62CE00CAF5B5}"
+    description="gIntA.CManageDCs"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CManageDCs"/>
+  <comClass
+    clsid="{76623BB1-3B1C-48F7-A48B-470A0730A942}"
+    description="gIntA.CMessageLog"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CMessageLog"/>
+  <comClass
+    clsid="{7943ED10-DD51-48B7-84B0-BB5267DB6670}"
+    description="gIntA.clsStringArray"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsStringArray"/>
+  <comClass
+    clsid="{7A86E7AA-1EF8-4DE2-863B-326DEF1C1439}"
+    description="gIntA.clsDlgBrowser"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsDlgBrowser"/>
+  <comClass
+    clsid="{7AB0CE6F-326D-4011-93A5-CF3FBC7EBA5E}"
+    description="gIntA.CGintIndex"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGintIndex"/>
+  <comClass
+    clsid="{7AB655A0-4913-4FF5-8776-0D42FB6E88E5}"
+    description="gIntA.clsReportVar"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsReportVar"/>
+  <comClass
+    clsid="{7BE92EB8-CD52-4432-9A04-BEB3EAC58CC2}"
+    description="gIntA.clsQueryCache"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsQueryCache"/>
+  <comClass
+    clsid="{7CEE8F94-A3BC-4E07-801C-DBADE834268B}"
+    description="gIntA.CFieldPropsCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CFieldPropsCollection"/>
+  <comClass
+    clsid="{7DA394E1-B171-41FF-B970-4BDFDBE2E506}"
+    description="gIntA.clsGDIZone"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsGDIZone"/>
+  <comClass
+    clsid="{7DD00BC2-C88D-4811-81F3-4E5502D8997D}"
+    description="gIntA.CJetEngineOps"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CJetEngineOps"/>
+  <comClass
+    clsid="{7EB1C68E-71D6-48C7-938E-921895E99533}"
+    description="gIntA.CHPGLImport"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CHPGLImport"/>
+  <comClass
+    clsid="{80E883D8-A1CD-4733-B966-8995866BAE23}"
+    description="gIntA.CReportFunctions"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CReportFunctions"/>
+  <comClass
+    clsid="{8533FDCF-02BC-4360-96BA-A33B31367752}"
+    description="gIntA.CDoTrace"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDoTrace"/>
+  <comClass
+    clsid="{87DD65A6-36E2-4EF7-9E91-CDC40A530F3D}"
+    description="gIntA.CDataIOExport"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataIOExport"/>
+  <comClass
+    clsid="{896BD77E-8B67-4133-9D37-3C6C67DE7FCB}"
+    description="gIntA.clsBlobFieldData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsBlobFieldData"/>
+  <comClass
+    clsid="{8AEF9F62-664D-4573-B92F-470FD35C6C91}"
+    description="gIntA.CGDIEntityListCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGDIEntityListCollection"/>
+  <comClass
+    clsid="{8B6D1F83-8DA2-4B50-97D2-E20B0DCED1C3}"
+    description="gIntA.CGIDText"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDText"/>
+  <comClass
+    clsid="{8C5A2EFC-8C6A-4FA2-B48E-ED76DA9040E4}"
+    description="gIntA.IPDFCallBack"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.IPDFCallBack"/>
+  <comClass
+    clsid="{8EA2EDAE-F9EF-4FD2-813A-7729D074FF03}"
+    description="gIntA.clsAPIConstants"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsAPIConstants"/>
+  <comClass
+    clsid="{8F7DE070-3CF7-47C8-8087-592C9077FE5D}"
+    description="gIntA.CTableData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CTableData"/>
+  <comClass
+    clsid="{9142D24F-4857-4DAD-B5E9-985596DE68EC}"
+    description="gIntA.CTableDesignData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CTableDesignData"/>
+  <comClass
+    clsid="{976C29F3-C7C2-46DC-9FF0-4597D13B56FA}"
+    description="gIntA.CExcel"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CExcel"/>
+  <comClass
+    clsid="{9C7CE18B-E80A-42C8-8822-26AB17B3CC8C}"
+    description="gIntA.CAppAttr"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAppAttr"/>
+  <comClass
+    clsid="{9D322AD6-A8A5-4B1A-8B91-EFB45B16A1E3}"
+    description="gIntA.CUserTableOps"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CUserTableOps"/>
+  <comClass
+    clsid="{9DCF5903-564E-489D-887D-B8D6EA21A811}"
+    description="gIntA.CDataIOContouring"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataIOContouring"/>
+  <comClass
+    clsid="{9FBE294D-ED27-4A7A-99FA-B4C206EDED6C}"
+    description="gIntA.CO2KBug"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CO2KBug"/>
+  <comClass
+    clsid="{A0D4D7C3-57E6-4860-A5CB-F82FA9231D35}"
+    description="gIntA.clsProjectTableFieldData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsProjectTableFieldData"/>
+  <comClass
+    clsid="{A1E6925E-7FB7-4C5F-BED8-7AA3CC4A020B}"
+    description="gIntA.clsIODataset"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsIODataset"/>
+  <comClass
+    clsid="{A2D99CC7-D339-4896-8E92-7C508C6C7207}"
+    description="gIntA.CSoilClass"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CSoilClass"/>
+  <comClass
+    clsid="{A476F3FD-4B83-464E-8967-4FBBFC6A8288}"
+    description="gIntA.CTextString"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CTextString"/>
+  <comClass
+    clsid="{A96ECC8A-045E-42C4-88C1-7B4B870FADC8}"
+    description="gIntA.CLibColors"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CLibColors"/>
+  <comClass
+    clsid="{AA5FFA06-3482-4227-AE74-2981252E17B2}"
+    description="gIntA.CMenus"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CMenus"/>
+  <comClass
+    clsid="{AD0A64D6-293F-4FB7-AAB5-7943D8077DF4}"
+    description="gIntA.CDataIOWinCore"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataIOWinCore"/>
+  <comClass
+    clsid="{AE536B15-C63C-4293-B461-2B0F5F4FC57D}"
+    description="gIntA.CECWFileCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CECWFileCollection"/>
+  <comClass
+    clsid="{AECB38F0-BD97-41FD-9BE8-427A52CA20DB}"
+    description="gIntA.clsEnterpriseDbData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsEnterpriseDbData"/>
+  <comClass
+    clsid="{B0E95DFA-1694-4C6F-9A58-660F71D148D8}"
+    description="gIntA.CComboData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CComboData"/>
+  <comClass
+    clsid="{B1781959-BFD4-47CA-8A50-8D83A291F51E}"
+    description="gIntA.CHoleOrient"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CHoleOrient"/>
+  <comClass
+    clsid="{B44FDEFE-53F2-4F56-8E61-7CD2D04DC3DB}"
+    description="gIntA.CGDIZoneCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGDIZoneCollection"/>
+  <comClass
+    clsid="{B657512A-402F-416F-B622-2FD3A93AFA54}"
+    description="gIntA.CDXF"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDXF"/>
+  <comClass
+    clsid="{BA625FF0-2945-4D9B-8B7A-346338847C6A}"
+    description="gIntA.clsProgressInterface"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsProgressInterface"/>
+  <comClass
+    clsid="{BA642238-F8A6-4CDC-9D7C-2C5A7EDB1804}"
+    description="gIntA.CInputGroups"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CInputGroups"/>
+  <comClass
+    clsid="{BAF897A5-49AB-4CF8-B82E-CA429940C2CC}"
+    description="gIntA.CManageBitmaps"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CManageBitmaps"/>
+  <comClass
+    clsid="{BCD9EF39-CA33-4BDF-9846-D82E08D05088}"
+    description="gIntA.CManageRegions"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CManageRegions"/>
+  <comClass
+    clsid="{BED77F51-96B8-42D0-962C-46AC17AC5D47}"
+    description="gIntA.CGDIEntityList"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGDIEntityList"/>
+  <comClass
+    clsid="{BF692BCE-FA21-42CA-AFC1-C992D7F1ABC2}"
+    description="Cache properties of gINT table relations.  Initially Parent table and number of fields"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsRelation"/>
+  <comClass
+    clsid="{C09918C5-C5AF-4BCD-B93D-7B9922FF31CD}"
+    description="gIntA.CTGCad"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CTGCad"/>
+  <comClass
+    clsid="{C1177643-0069-468C-AEE2-6AA4A843F664}"
+    description="gIntA.CGIDConsolBlocks"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDConsolBlocks"/>
+  <comClass
+    clsid="{C344F006-CCAF-4D50-A9C6-C8ADA30179C5}"
+    description="gIntA.CDataClip"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDataClip"/>
+  <comClass
+    clsid="{C42B52E5-AA94-4252-997E-E0F4728C86D2}"
+    description="gIntA.CDialogStack"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDialogStack"/>
+  <comClass
+    clsid="{C4D0BF33-88EF-48AE-9DDC-940BA677B5FA}"
+    description="gIntA.clsCorrFileData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsCorrFileData"/>
+  <comClass
+    clsid="{C8776254-AC4F-4E6F-8FD9-5E98B25BD2EA}"
+    description="gIntA.CGintV3"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGintV3"/>
+  <comClass
+    clsid="{C8E0698A-CCF0-4D48-81B2-5C2BC5C46539}"
+    description="gIntA.clsBseData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsBseData"/>
+  <comClass
+    clsid="{C96CCF57-C467-482D-8508-A46443867DB7}"
+    description="gIntA.CDialogValues"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDialogValues"/>
+  <comClass
+    clsid="{C9901EFF-A173-4D0E-82BD-618120758219}"
+    description="gIntA.CAppGroup"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAppGroup"/>
+  <comClass
+    clsid="{C9F3F6AE-18DD-43A2-98A1-24B479E08D81}"
+    description="gIntA.CPDFDynaAPI"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CPDFDynaAPI"/>
+  <comClass
+    clsid="{CC062DE5-33A5-4359-B280-93B5967A8EAF}"
+    description="gIntA.clsInputLocation"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsInputLocation"/>
+  <comClass
+    clsid="{CDD4D1DD-86A1-479A-8247-44560554A979}"
+    description="gIntA.CEval"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CEval"/>
+  <comClass
+    clsid="{CFFD2D64-7F7D-442B-97B9-3DEE894CD94E}"
+    description="gIntA.clsTableName"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsTableName"/>
+  <comClass
+    clsid="{D0F93BEA-0517-4EDA-995A-DB6845DBBEE3}"
+    description="gIntA.clsBaseIndex"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsBaseIndex"/>
+  <comClass
+    clsid="{D3946501-56F1-4B50-80B7-FDA87C6E2D1D}"
+    description="gIntA.CAppAttrCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAppAttrCollection"/>
+  <comClass
+    clsid="{D6617A85-42D2-47CF-9B7F-36A88C3A4ED9}"
+    description="gIntA.CFieldRefs"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CFieldRefs"/>
+  <comClass
+    clsid="{D720A180-E61D-4C84-BDC3-AAC1BDDC7B45}"
+    description="gIntA.clsGintRulesProcedure"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsGintRulesProcedure"/>
+  <comClass
+    clsid="{D77E9DF1-C09E-46BC-B52C-AD37FABD4C86}"
+    description="gIntA.CGIDFile"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDFile"/>
+  <comClass
+    clsid="{D8B43A0D-8B20-4F23-A1E6-5F3F5E075EB5}"
+    description="gIntA.CPDFDynaEnum"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CPDFDynaEnum"/>
+  <comClass
+    clsid="{D8E63378-E89C-41F7-B0AB-0B621B822DB0}"
+    description="gIntA.CAppGroupCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAppGroupCollection"/>
+  <comClass
+    clsid="{DC9FC7E9-C379-4649-845D-05BDC560A41C}"
+    description="gIntA.CFile"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CFile"/>
+  <comClass
+    clsid="{DED03F98-0D8C-411C-8938-DE4FC5A1290D}"
+    description="gIntA.CPrinterShared"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CPrinterShared"/>
+  <comClass
+    clsid="{E09A5D61-06FE-49E3-A516-E96FAF03DFF7}"
+    description="gIntA.CFindReplaceLibrary"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CFindReplaceLibrary"/>
+  <comClass
+    clsid="{E2A2D8F5-E2E8-4F48-8013-D1B7D630DDDE}"
+    description="gIntA.clsTableNameCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsTableNameCollection"/>
+  <comClass
+    clsid="{E31D9EAD-4F60-46DA-955B-A2D0E8ACEAAA}"
+    description="gIntA.CCurveFitting"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CCurveFitting"/>
+  <comClass
+    clsid="{E36035E0-F65B-450E-B8A7-4AEAD064E71B}"
+    description="gIntA.CFieldRules"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CFieldRules"/>
+  <comClass
+    clsid="{E56B6526-3CF3-4381-BBCB-FD8C1C3D335B}"
+    description="gIntA.CAddIns"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAddIns"/>
+  <comClass
+    clsid="{E57CB55C-7EDA-40E6-9825-07DB348CFC74}"
+    description="gIntA.CAxControls"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAxControls"/>
+  <comClass
+    clsid="{E7D9CD6D-5FE4-457A-9588-1C31744D981D}"
+    description="gIntA.CWHPropertyCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CWHPropertyCollection"/>
+  <comClass
+    clsid="{E86D9321-1700-4AD8-8C63-6945DF530298}"
+    description="gIntA.CGIDFrames"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDFrames"/>
+  <comClass
+    clsid="{E93AA9FB-D6ED-40BE-AB8A-18DB3A08F99B}"
+    description="gIntA.CFieldProps"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CFieldProps"/>
+  <comClass
+    clsid="{EA9BEF61-A75D-440F-B158-25A56D3A12C1}"
+    description="gIntA.CColorsSet"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CColorsSet"/>
+  <comClass
+    clsid="{EB7DA706-3958-4A3F-B40C-8DF9512BDC70}"
+    description="gIntA.CPageAttrCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CPageAttrCollection"/>
+  <comClass
+    clsid="{ECAD3AF2-861C-4D08-AB7E-6B24ED6377D2}"
+    description="gIntA.CDisplay"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CDisplay"/>
+  <comClass
+    clsid="{EF25EDE3-124D-4F6C-8D95-70A64E790B2F}"
+    description="gIntA.CGIDTextExplode"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGIDTextExplode"/>
+  <comClass
+    clsid="{F08B79B8-2597-4E31-A62A-DAAE77E1D829}"
+    description="gIntA.clsCompression"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsCompression"/>
+  <comClass
+    clsid="{F116CB17-EB64-4874-B17F-F8FED30B2D8C}"
+    description="gIntA.CTerminate"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CTerminate"/>
+  <comClass
+    clsid="{F18B53D8-0070-4781-B845-382E8EAC124A}"
+    description="gIntA.clsReportVarCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.clsReportVarCollection"/>
+  <comClass
+    clsid="{F1D58D8D-05DC-4A63-9071-81B0DC68C23E}"
+    description="gIntA.CAppData"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CAppData"/>
+  <comClass
+    clsid="{F48E25D4-DDD5-4787-ABEC-56E079E883A8}"
+    description="gIntA.CSetupFile"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CSetupFile"/>
+  <comClass
+    clsid="{F61809E4-91EF-4D19-960E-4671C2B6EE2C}"
+    description="gIntA.CGridAttrCollection"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.CGridAttrCollection"/>
+  <comClass
+    clsid="{FA2F5D79-0C3C-4E35-BBE1-E71EC83317D4}"
+    description="gIntA.COutputGraphicFrame"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    threadingModel="Apartment"
+    progid="gIntA.COutputGraphicFrame"/>
+  <comClass
+    clsid="{FBFCA8FD-719A-482F-B04C-7B18B7ACB6DD}"
+    description="gIntA.CWHProperty"
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    progid="gIntA.CWHProperty"/>
+  <typelib
+    tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+    version="2.1"
+    helpdir="bin"
+    flags="hasdiskimage"/>
+</file>
+
+<file name="Aux8\VBACollectionFactory.dll" hashalg="SHA1">
+  <comClass
+    clsid="{6A8999E5-0087-46E6-840B-59D6206FE7BB}"
+    description="VBACollectionFactory.CollectionFactory"
+    tlbid="{36124F27-DD60-47E9-9B60-DB940F034729}"
+    threadingModel="Apartment"
+    progid="VBACollectionFactory.CollectionFactory"/>
+  <typelib
+    tlbid="{36124F27-DD60-47E9-9B60-DB940F034729}"
+    version="1.0"
+    helpdir="bin"
+    flags="hasdiskimage"/>
+</file>
+
+<file name="Aux8\COMDLG32.OCX" hashalg="SHA1">
+  <comClass
+    clsid="{3C4F3BE3-47EB-101B-A3C9-08002B2F49FB}"
+    description="Common Dialog Font Property Page Object"/>
+  <comClass
+    clsid="{3C4F3BE5-47EB-101B-A3C9-08002B2F49FB}"
+    description="Common Dialog Print Property Page Object"/>
+  <comClass
+    clsid="{3C4F3BE7-47EB-101B-A3C9-08002B2F49FB}"
+    description="Common Dialog Help Property Page Object"/>
+  <comClass
+    clsid="{7629CFA2-3FE5-101B-A3C9-08002B2F49FB}"
+    description="Common Dialog Open Property Page Object"/>
+  <comClass
+    clsid="{7629CFA4-3FE5-101B-A3C9-08002B2F49FB}"
+    description="Common Dialog Color Property Page Object"/>
+  <comClass
+    clsid="{F9043C85-F6F2-101A-A3C9-08002B2F49FB}"
+    description="Microsoft Common Dialog Control, version 6.0 (SP6)"
+    tlbid="{F9043C88-F6F2-101A-A3C9-08002B2F49FB}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,invisibleatruntime,onlyiconic,recomposeonresize,setclientsitefirst"
+    progid="MSComDlg.CommonDialog.1">
+    <progid>MSComDlg.CommonDialog</progid>
+  </comClass>
+  <typelib
+    tlbid="{F9043C88-F6F2-101A-A3C9-08002B2F49FB}"
+    version="1.2"
+    helpdir="HELP"
+    flags="control,hasdiskimage"/>
+</file>
+
+<file name="Aux8\scrrun.dll" hashalg="SHA1">
+  <comClass
+    clsid="{0CF774D0-F077-11D1-B1BC-00C04F86C324}"
+    description="HTML Host Encode Object"
+    threadingModel="Apartment"
+    progid="HTML.HostEncode"/>
+  <comClass
+    clsid="{0CF774D1-F077-11D1-B1BC-00C04F86C324}"
+    description="ASP Host Encode Object"
+    threadingModel="Apartment"
+    progid="ASP.HostEncode"/>
+  <comClass
+    clsid="{0D43FE01-F093-11CF-8940-00A0C9054228}"
+    description="FileSystem Object"
+    tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+    threadingModel="Both"
+    progid="Scripting.FileSystemObject"/>
+  <comClass
+    clsid="{32DA2B15-CFED-11D1-B747-00C04FC2B085}"
+    description="Script Encoder Object"
+    tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+    threadingModel="Apartment"
+    progid="Scripting.Encoder"/>
+  <comClass
+    clsid="{85131630-480C-11D2-B1F9-00C04F86C324}"
+    description="JS File Host Encode Object"
+    threadingModel="Apartment"
+    progid="JSFile.HostEncode"/>
+  <comClass
+    clsid="{85131631-480C-11D2-B1F9-00C04F86C324}"
+    description="VBS File Host Encode Object"
+    threadingModel="Apartment"
+    progid="VBSFile.HostEncode"/>
+  <comClass
+    clsid="{EE09B103-97E0-11CF-978F-00A02463E06F}"
+    description="Scripting.Dictionary"
+    tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+    threadingModel="Apartment"
+    progid="Scripting.Dictionary"/>
+  <typelib
+    tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+    version="1.0"
+    helpdir="system32"
+    flags="hasdiskimage"/>
+</file>
+
+<file name="Aux8\mscomct2.ocx" hashalg="SHA1">
+  <comClass
+    clsid="{20DD1B9E-87C4-11D1-8BE3-0000F8754DA1}"
+    description="Microsoft Date and Time Picker Control 6.0 (SP4)"
+    tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComCtl2.DTPicker.2">
+    <progid>MSComCtl2.DTPicker</progid>
+  </comClass>
+  <comClass
+    clsid="{232E456A-87C3-11D1-8BE3-0000F8754DA1}"
+    description="Microsoft MonthView Control 6.0 (SP4)"
+    tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComCtl2.MonthView.2">
+    <progid>MSComCtl2.MonthView</progid>
+  </comClass>
+  <comClass
+    clsid="{586A6352-87C8-11D1-8BE3-0000F8754DA1}"
+    description="Animation General Property Page Object"/>
+  <comClass
+    clsid="{586A6353-87C8-11D1-8BE3-0000F8754DA1}"
+    description="UpDown General Property Page Object"/>
+  <comClass
+    clsid="{586A6354-87C8-11D1-8BE3-0000F8754DA1}"
+    description="UpDown Scrolling Property Page Object"/>
+  <comClass
+    clsid="{586A6355-87C8-11D1-8BE3-0000F8754DA1}"
+    description="UpDown Buddy Property Page Object"/>
+  <comClass
+    clsid="{586A6356-87C8-11D1-8BE3-0000F8754DA1}"
+    description="MonthView General Property Page Object"/>
+  <comClass
+    clsid="{586A6357-87C8-11D1-8BE3-0000F8754DA1}"
+    description="Date and Time Picker General Property Page Object"/>
+  <comClass
+    clsid="{586A6359-87C8-11D1-8BE3-0000F8754DA1}"
+    description="Flat Scrollbar General Property Page Object"/>
+  <comClass
+    clsid="{603C7E80-87C2-11D1-8BE3-0000F8754DA1}"
+    description="Microsoft UpDown Control 6.0 (SP4)"
+    tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComCtl2.UpDown.2">
+    <progid>MSComCtl2.UpDown</progid>
+  </comClass>
+  <comClass
+    clsid="{B09DE715-87C1-11D1-8BE3-0000F8754DA1}"
+    description="Microsoft Animation Control 6.0 (SP4)"
+    tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComCtl2.Animation.2">
+    <progid>MSComCtl2.Animation</progid>
+  </comClass>
+  <comClass
+    clsid="{FE38753A-44A3-11D1-B5B7-0000C09000C4}"
+    description="Microsoft Flat Scrollbar Control 6.0 (SP4)"
+    tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,actslikelabel,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComCtl2.FlatScrollBar.2">
+    <progid>MSComCtl2.FlatScrollBar</progid>
+  </comClass>
+  <typelib
+    tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+    version="2.0"
+    helpdir="HELP"
+    flags="control,hasdiskimage"/>
+</file>
+
+<file name="Aux8\MSCOMCTL.OCX" hashalg="SHA1">
+  <comClass
+    clsid="{1EFB6596-857C-11D1-B16A-00C0F0283628}"
+    description="Microsoft TabStrip Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.TabStrip.2">
+    <progid>MSComctlLib.TabStrip</progid>
+  </comClass>
+  <comClass
+    clsid="{2C247F23-8591-11D1-B16A-00C0F0283628}"
+    description="Microsoft ImageList Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,alignable,cantlinkinside,insideout,invisibleatruntime,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.ImageListCtrl.2">
+    <progid>MSComctlLib.ImageListCtrl</progid>
+  </comClass>
+  <comClass
+    clsid="{35053A22-8589-11D1-B16A-00C0F0283628}"
+    description="Microsoft ProgressBar Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,actslikelabel,alignable,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.ProgCtrl.2">
+    <progid>MSComctlLib.ProgCtrl</progid>
+  </comClass>
+  <comClass
+    clsid="{66833FE6-8583-11D1-B16A-00C0F0283628}"
+    description="Microsoft Toolbar Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,actslikelabel,alignable,cantlinkinside,insideout,recomposeonresize,setclientsitefirst,simpleframe"
+    progid="MSComctlLib.Toolbar.2">
+    <progid>MSComctlLib.Toolbar</progid>
+  </comClass>
+  <comClass
+    clsid="{8E3867A3-8586-11D1-B16A-00C0F0283628}"
+    description="Microsoft StatusBar Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,actslikelabel,alignable,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.SBarCtrl.2">
+    <progid>MSComctlLib.SBarCtrl</progid>
+  </comClass>
+  <comClass
+    clsid="{BDD1F04B-858B-11D1-B16A-00C0F0283628}"
+    description="Microsoft ListView Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.ListViewCtrl.2">
+    <progid>MSComctlLib.ListViewCtrl</progid>
+  </comClass>
+  <comClass
+    clsid="{C27CCE32-8596-11D1-B16A-00C0F0283628}"
+    description="TreeView General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE33-8596-11D1-B16A-00C0F0283628}"
+    description="TabStrip General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE34-8596-11D1-B16A-00C0F0283628}"
+    description="Tab Property Page Object"/>
+  <comClass
+    clsid="{C27CCE35-8596-11D1-B16A-00C0F0283628}"
+    description="ImageList General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE36-8596-11D1-B16A-00C0F0283628}"
+    description="Image Property Page Object"/>
+  <comClass
+    clsid="{C27CCE37-8596-11D1-B16A-00C0F0283628}"
+    description="Toolbar General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE38-8596-11D1-B16A-00C0F0283628}"
+    description="Button Property Page Object"/>
+  <comClass
+    clsid="{C27CCE39-8596-11D1-B16A-00C0F0283628}"
+    description="StatusBar General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE3A-8596-11D1-B16A-00C0F0283628}"
+    description="Panel Property Page Object"/>
+  <comClass
+    clsid="{C27CCE3B-8596-11D1-B16A-00C0F0283628}"
+    description="Progress Bar General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE3C-8596-11D1-B16A-00C0F0283628}"
+    description="Slider General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE3D-8596-11D1-B16A-00C0F0283628}"
+    description="Slider Appearance Property Page Object"/>
+  <comClass
+    clsid="{C27CCE3E-8596-11D1-B16A-00C0F0283628}"
+    description="ListView General Property Page Object"/>
+  <comClass
+    clsid="{C27CCE3F-8596-11D1-B16A-00C0F0283628}"
+    description="ListView Sort Property Page Object"/>
+  <comClass
+    clsid="{C27CCE40-8596-11D1-B16A-00C0F0283628}"
+    description="ListView Images Property Page Object"/>
+  <comClass
+    clsid="{C27CCE41-8596-11D1-B16A-00C0F0283628}"
+    description="ListView Columns Property Page Object"/>
+  <comClass
+    clsid="{C27CCE42-8596-11D1-B16A-00C0F0283628}"
+    description="ImageComboBox General Property Page Object"/>
+  <comClass
+    clsid="{C74190B6-8589-11D1-B16A-00C0F0283628}"
+    description="Microsoft TreeView Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.TreeCtrl.2">
+    <progid>MSComctlLib.TreeCtrl</progid>
+  </comClass>
+  <comClass
+    clsid="{DD9DA666-8594-11D1-B16A-00C0F0283628}"
+    description="Microsoft ImageComboBox Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.ImageComboCtl.2">
+    <progid>MSComctlLib.ImageComboCtl</progid>
+  </comClass>
+  <comClass
+    clsid="{F08DF954-8592-11D1-B16A-00C0F0283628}"
+    description="Microsoft Slider Control 6.0 (SP6)"
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="MSComctlLib.Slider.2">
+    <progid>MSComctlLib.Slider</progid>
+  </comClass>
+  <typelib
+    tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+    version="2.0"
+    helpdir="HELP"
+    flags="control,hasdiskimage"/>
+</file>
+
+<file name="Aux8\Vsocx6.ocx" hashalg="SHA1">
+  <comClass
+    clsid="{3B00804F-905A-11D1-B4AE-444553540000}"
+    description=":-) VideoSoft Elastic Control"
+    tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst,simpleframe"
+    progid="vsElastic.vsElastic.1">
+    <progid>vsElastic.vsElastic</progid>
+  </comClass>
+  <comClass
+    clsid="{3B008051-905A-11D1-B4AE-444553540000}"
+    description=":-) VideoSoft IndexTab Control"
+    tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst,simpleframe"
+    progid="vsIndexTab.vsIndexTab.1">
+    <progid>vsIndexTab.vsIndexTab</progid>
+  </comClass>
+  <comClass
+    clsid="{3B008053-905A-11D1-B4AE-444553540000}"
+    description=":-) VideoSoft Awk Control"
+    tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,invisibleatruntime,recomposeonresize,setclientsitefirst"
+    progid="vsAwk.vsAwk.1">
+    <progid>vsAwk.vsAwk</progid>
+  </comClass>
+  <typelib
+    tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+    version="1.0"
+    helpdir=""
+    flags="hasdiskimage"/>
+</file>
+
+<file name="Aux8\RICHTX32.OCX" hashalg="SHA1">
+  <comClass
+    clsid="{3B7C8860-D78F-101B-B9B5-04021C009402}"
+    description="Microsoft Rich Textbox Control 6.0 (SP6)"
+    tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,recomposeonresize,setclientsitefirst"
+    progid="RICHTEXT.RichtextCtrl.1">
+    <progid>RICHTEXT.RichtextCtrl</progid>
+  </comClass>
+  <comClass
+    clsid="{78E5A540-1850-11CF-9D53-00AA003C9CB6}"
+    description="RichText General Property Page Object"/>
+  <comClass
+    clsid="{AFC634B0-4B8B-11CF-8989-00AA00688B10}"
+    description="RichText Apppearance Property Page Object"/>
+  <comClass
+    clsid="{B617B991-A767-4F05-99BA-AC6FCABB102E}"
+    description="Microsoft Rich Textbox Control 6.0 (SP6)"
+    threadingModel="Apartment"/>
+  <typelib
+    tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+    version="1.2"
+    helpdir="HELP"
+    flags="control,hasdiskimage"/>
+</file>
+
+<file name="Aux8\MSINET.OCX" hashalg="SHA1">
+  <comClass
+    clsid="{48E59293-9880-11CF-9754-00AA00C00908}"
+    description="Microsoft Internet Transfer Control 6.0 (SP6)"
+    tlbid="{48E59290-9880-11CF-9754-00AA00C00908}"
+    threadingModel="Apartment"
+    miscStatusContent="activatewhenvisible,cantlinkinside,insideout,invisibleatruntime,recomposeonresize,setclientsitefirst"
+    progid="InetCtls.Inet.1">
+    <progid>InetCtls.Inet</progid>
+  </comClass>
+  <comClass
+    clsid="{48E59294-9880-11CF-9754-00AA00C00908}"
+    description="Internet Control General Property Page Object"/>
+  <comClass
+    clsid="{48E59295-9880-11CF-9754-00AA00C00908}"
+    description="Internet Control URL Property Page Object"/>
+  <typelib
+    tlbid="{48E59290-9880-11CF-9754-00AA00C00908}"
+    version="1.0"
+    helpdir="HELP"
+    flags="control,hasdiskimage"/>
+</file>
+
+<comInterfaceExternalProxyStub
+  iid="{23FBB8F5-5551-4E17-AFE1-0195EA36120C}"
+  name="enumsAX0"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{51196E9C-E0E0-4E8A-8FB5-DA18AA6C9AEA}"
+  name="enumsQuery"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{6F1B5E97-66BF-4E13-B014-522A02E55CDC}"
+  name="enumsAxdbfld"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{6F5DD72D-7D9A-4AFE-9B85-B4268C9A213C}"
+  name="clsDialogConstants"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7AD674A0-BBB5-4591-856E-AAE6E6C06543}"
+  name="clsListboxConstants"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7ADF3893-20D7-4E1A-848F-E48A7FD3F418}"
+  name="clsxProperty_Const"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{83D1093C-DE4B-423E-8443-EA60FE9373CD}"
+  name="enumsCmds"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{ACC1BEAF-8733-4B71-B2BF-EE433536CD1F}"
+  name="clsGIDConst"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BC058F52-18B6-4B05-BF2D-E18A0CF2BC0E}"
+  name="clsLibPageEntConst"
+  tlbid="{B42E8493-4656-4508-B24C-39E879556508}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{00EF3ED1-6296-45BD-8B5C-5E11518232CE}"
+  name="CGridAttrCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{01D07691-B2AA-49BF-A1F8-CA45DC9CC68F}"
+  name="CPDFDynaAPI"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{01E322CA-332D-4D14-B8C5-D9A9DDF404DF}"
+  name="CStringBuild"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{02077BF1-FCE5-491B-A8B7-F066DA117416}"
+  name="CColorsSet"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{0419CD1D-5EE8-4B5C-AB0A-96D695C3EA88}"
+  name="clsNewDatabaseTable"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{0B1C28FE-4948-423B-9A83-7213BE7B8CAA}"
+  name="CCurveFitting"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{10C40722-94E9-4384-94F4-6EBCF1643394}"
+  name="CGDIZone"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{11067360-BC47-4EC0-82B6-D57EEB38ABCF}"
+  name="CFieldPropsCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{110E35D2-B0B4-4423-9AFB-84EE2710635B}"
+  name="CMenus"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{113F075E-F4C5-4B23-A5E4-2AE8B0B468E2}"
+  name="clsRelation"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1148548C-1DEF-4E1E-86EF-A50D79FA2172}"
+  name="CPDFDyna"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{15AD4FB5-62DA-4239-ADDE-1949A06E27DB}"
+  name="CUserTableOps"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{19936A0B-945D-4721-95F4-AC7AF7770FC8}"
+  name="clsBseData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1B21E8C8-ECAF-4936-8946-3DCB77E6916E}"
+  name="CSoilClass"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1BD0DF47-5AA2-4624-847B-27102B3339CE}"
+  name="CSpecialChar"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1E1C21E9-B8BF-4337-83C0-4B9AB6721AC6}"
+  name="clsRelationsCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1EFE5471-FB20-4CCA-A1D8-3D8CDCF2046B}"
+  name="CDoTrace"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1F8A77D6-2EDA-46F8-85FA-2CF98E656FA3}"
+  name="clsGintRulesProcedure"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{21D65233-76B1-451D-BA4D-7CE358BA2D47}"
+  name="CTableDataCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{21EC2FB7-271D-4037-8689-BB52E2A5A50D}"
+  name="CTableDesignData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{22A6BDD3-F626-4655-BDFB-2BAD727F57A9}"
+  name="CCallBacks"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2333F1E8-A20D-4DA9-8F01-B133B22B21E4}"
+  name="clsFieldOrg"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{251CB554-B028-4439-B3E0-261502959EE3}"
+  name="CWHPropertyCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2524D39B-7632-4292-8153-E7E2E04188C3}"
+  name="CGradSpec"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{25C30D51-E34B-4F02-B891-D89B2B04F1A7}"
+  name="CEval"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2784D084-7398-432D-A817-3212E6501B9C}"
+  name="CAppAttrCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2986267B-E7C9-4242-84DF-46B3828D6354}"
+  name="CDBCompare"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2ACF547C-CA7C-4479-BD74-296B5BCF6552}"
+  name="CGintV3"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2E33F0D2-B0E8-45A8-B1E8-9DDD1CABAFF7}"
+  name="CFieldProps"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2E66CD32-20A2-4B60-A10C-9F97A4FD9194}"
+  name="CRegistryOps"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2E95569C-4886-4B34-89B7-621C2AA359DD}"
+  name="CDoTrace"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2F1CA3BD-3CCF-4073-B998-0A75D0CEE644}"
+  name="CDBConsol"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{30E70C16-2808-460A-87F9-AFFAD3447E3A}"
+  name="CGintIndex"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{315D4EDF-4FE0-4FA3-BFA9-2C9C54601A33}"
+  name="CSymbolsOutput"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3821E4ED-A123-4291-B857-561B582F733D}"
+  name="CGDIEntityList"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{39020745-C80B-4768-880E-F9991A1C2DDB}"
+  name="CFieldRules"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{391D6BA6-46C6-4F38-8718-53DAE70F7589}"
+  name="clsInputLocation"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3D65C21E-4ACC-4C20-BDAE-EE723A93E7F4}"
+  name="CWHProperties"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3D98727B-F3E3-49C4-869E-F9064AFF3052}"
+  name="clsBlobFieldData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3E8F82E1-4CDB-4311-85BE-EF74E4539238}"
+  name="clsProjectTableFieldData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3FA19A28-2ED2-419E-B258-BD76655BF2AF}"
+  name="clsProgressInterface"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{41C15E2D-4CC6-4A3A-84F5-97C3CD1A7C9E}"
+  name="CAddIns"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{426D0A01-A857-4CCA-B39B-94E6D03EBB4A}"
+  name="CDataIOKML"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{432F764C-6D48-4D05-A3BA-A731BCA8FCF2}"
+  name="CManageDCs"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{43CDE61F-17BD-43DF-859C-CCB309B217C7}"
+  name="clsIOFileCache"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{46926107-E396-4C6D-B5D8-E3830DC5414E}"
+  name="CCompareLibs"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{49480AF4-945F-4D7F-A31B-C208FC16DCB4}"
+  name="CPlaxisExport"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{4B83A686-AA48-4450-84C4-4A4AC02113C8}"
+  name="CReportFunctions"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{4DDBA4FB-95ED-48AE-A823-B73833BA10DB}"
+  name="CAppAttr"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{510BE2C1-D842-4C35-854E-12264C61F984}"
+  name="CGGLAlias"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{517C554C-E81A-4BEB-9BA5-8CD40F333E63}"
+  name="CGIDText"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{5576C03A-CD6E-42DD-837E-17841E9DACD8}"
+  name="CManageBrushes"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{561D703B-B38F-431A-A468-F6EFB3E92388}"
+  name="clsReportVar"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{572B686C-81F8-47C9-AF9F-99DF31A35075}"
+  name="CGDIEntityListCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{575BECDE-3A8C-436E-8FEC-35849448F76B}"
+  name="clsQueryCache"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{5818A710-A9A7-4C4B-B218-22866A7F6828}"
+  name="CDisplay"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{58DEE70D-26B0-4953-BAFE-35773FE0FF5F}"
+  name="CDataIOExport"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{5B6206EA-8B02-424B-8762-F3CD52ED1C2D}"
+  name="clsCompression"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{5B7B0206-6F6F-48D4-A31F-685ECF9B6163}"
+  name="clsWebbrowser"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{5CC1596F-891F-4C75-B969-7307F59BE7C5}"
+  name="CGID"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{5DDE65B6-AA48-42D5-B48A-C702B8082638}"
+  name="clsIODataset"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{64DD8A9D-C304-4461-A3E4-45FF0C8B17D6}"
+  name="CComboData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{67287459-8B11-4E9B-A7B3-47448E562380}"
+  name="clsBaseIndex"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{68778281-752D-4468-837C-D3BAEDFA97B0}"
+  name="CMessageLog"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{69135CA4-BF91-4368-87C6-7FF718DF6C80}"
+  name="CECW"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{6A80AA15-E39A-4130-82AC-0E38AC515FC3}"
+  name="clsGroupData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{6B55DC53-3747-4B29-A639-3C6F527873A4}"
+  name="CCallBacks"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{721BE241-502C-497C-AF5B-2DB4F1085B3C}"
+  name="CGIDConsolBlocks"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7409B60A-B95F-463C-B654-0E2AD5D5F20C}"
+  name="clsAPIConstants"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{753A073B-6258-41F4-BE43-0EDD2C87CC1B}"
+  name="clsAlignments"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7A340CE2-9EC0-42A1-8A4A-029B7E762ED2}"
+  name="CDataClip"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7AB2360B-B39C-4852-A4F0-CC0B397D092B}"
+  name="clsCorrFileData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7BB3D567-FFBB-4A89-A5DC-378E5044BD5C}"
+  name="CComboAx"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7DCB7930-DAB8-415B-82BC-C41FB1EBE54D}"
+  name="CDialogAttrCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{7E4A1AD1-40EA-4213-B503-0996AB4007E0}"
+  name="CMultiText"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{80D6CED3-2438-4474-B7F2-2B86F4C108D9}"
+  name="clsGDIZone"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{81A39EC0-1EE2-4150-A721-77EA68641F53}"
+  name="CInputGroups"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{81BD729A-D128-42FF-8C2B-4333A6F46759}"
+  name="CAppGroupCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{822C2442-AADF-4818-9371-F7BB332CCC1F}"
+  name="CO2KBug"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{86122690-4532-43BB-A52C-B4FE61764545}"
+  name="CTGCad"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8635C8C8-84B6-4E0F-A4AA-C6E8BB8923FC}"
+  name="clsEnterpriseDbData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{863E5BB0-F587-4356-857D-3D9B7EBFCD2A}"
+  name="CECWFileCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{874364BF-3EF1-46B8-B32B-C47D43CF3BA7}"
+  name="CManageRegions"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8ED27D79-06C4-4905-8C35-658373DCC85C}"
+  name="CAlignment"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8F34A284-3483-487F-A5D7-12FDDD040B0D}"
+  name="CDialogValues"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{90052E0A-25CA-459A-A8A7-939BDD91783E}"
+  name="CHyprlinks"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{90268AF6-BFE5-4DAB-99E5-F81D6F045FFB}"
+  name="CAppData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{902D1EE2-7E83-4470-97E6-7730E7EF485F}"
+  name="CSetupFile"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{93317EC4-4743-4647-ABA3-CD0029679378}"
+  name="CPDFDynaEnum"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{953FED6F-A518-4BC4-85A0-A556B498CA51}"
+  name="CHoleOrient"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{95BD8ABE-11E5-4DB7-B5D2-FD5E16ABEF23}"
+  name="CGIDSave"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{98101005-70AA-4CD0-BEFB-D0126B35F786}"
+  name="CMsgBoxCustom"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{985706A6-42ED-4158-B6CD-2C6D2E61AE64}"
+  name="clsUnionFunction"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{9A2309FC-B5E4-4DDA-B49F-4D899CEF1AA6}"
+  name="CPrinterShared"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{9B074553-D26A-45A8-ACA0-3E90374296EF}"
+  name="CAGS"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{9C09FE71-4D48-4ED3-8B48-B7FA658E87EA}"
+  name="clsProgressInterface"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{9C14E65C-D7C3-4B76-BDFF-1D68BB30C0D0}"
+  name="clsTableName"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{9D9613D8-CEFB-4ADF-A7B0-1B4F10FA9E04}"
+  name="CAppGroup"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{9F700C48-1C02-4CA5-ADC6-42C2AD0476D3}"
+  name="CDataIOContouring"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{9FD870C6-F2B6-4004-BA0F-49BA6BED1F8A}"
+  name="CDXF"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{A53AC704-E5EA-47BC-8D3C-2C893B08A02F}"
+  name="CGIDComparePages"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{A5EEF071-4DA6-4C6D-9E4B-46E34F5D4A3E}"
+  name="CDataIOPGF"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{A736390A-5145-49E7-8796-D538FC84F5FD}"
+  name="COutputGraphicFrame"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{AA8352B2-8480-428F-90F7-B893FE75A485}"
+  name="clsTableNameCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{ACD696A3-6B01-4CA5-8BCA-B14B0723AE94}"
+  name="CAxControls"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{ADD8E525-733F-43E4-9072-BF1B87DADE5C}"
+  name="CGIDDisplay"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{AE6B1F42-3C87-46AD-A646-355783EC310A}"
+  name="CWHProperty"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{B4BC5C4A-C85C-49CA-99C2-763FE0AF7EB2}"
+  name="CLibColors"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{B57E2CA7-A93B-4A74-AA49-8242FF4902A8}"
+  name="CGIDTextExplode"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{B691965A-F4A9-49BA-A10A-0AAF5C83257B}"
+  name="clsReportVarCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BBC9394A-13A9-47E7-B4E8-C750EF6BF5F7}"
+  name="CGDIZoneCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BD06F90A-FC4E-4FC9-A873-4413487F6E4F}"
+  name="CBitmapSymbols"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BE154035-6235-4881-850F-D46CDE30290B}"
+  name="CPDFAmyuni"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C1D05587-32DC-4654-A450-4E3D0C582DD2}"
+  name="CInputGroups"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C229B339-235E-453F-8194-E1FB61DF2C2D}"
+  name="CGIDLines"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C2362F9B-4FB2-4E20-B10E-B054CBBD67C8}"
+  name="CDataIOWinCore"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C3DCC21C-0B84-4713-8133-D7F1103491EF}"
+  name="CJetEngineOps"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C445EFC0-CE45-4200-B944-2BADEB8A6531}"
+  name="CGIDFrames"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C585F668-32D8-4AE8-B4A7-54EEED5CC81D}"
+  name="CXML"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C8315B69-A658-4D5A-897A-10562048642F}"
+  name="IPDFCallBack"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{CA9C0AAE-A0CE-4B14-9AA0-15539E91B53E}"
+  name="CDialogStack"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{CBA72055-4B98-47CA-9BF6-31D003DC5A2E}"
+  name="CHPGLImport"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{CC9A923B-D164-4502-B07A-912D9E41A772}"
+  name="clsStringArray"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{CDF4CDA8-8743-4CB5-8C69-DD4B4C3D1E6B}"
+  name="CGIDFile"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{CF11BD7B-CFD1-4E68-B3CA-6A3325EFD572}"
+  name="CFindReplaceLibrary"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{D2AEFB4F-C12C-405D-8E15-4336B0675CEF}"
+  name="CASCIIFile"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{D3DED51B-1D58-42A6-8521-025F87B16EFD}"
+  name="CFile"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{DA63B2C0-3EE7-44D2-A11F-301BFC61087C}"
+  name="CFieldRefs"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{DCB07528-9BD6-4958-9749-702548AE5198}"
+  name="CTextString"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E07657A7-8DB3-4017-B95B-7F4F84393FC5}"
+  name="CTerminate"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E19C32B9-873D-4930-AF90-DAD5A83BD152}"
+  name="CManageBitmaps"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E1E23CCF-154F-4E24-ACA1-F0132B79F414}"
+  name="CMsgBoxGint"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E2D73A35-D7A2-4D7C-9C01-F08EF9C3ACB0}"
+  name="CCompanyInfo"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E30F9287-688E-460D-9FB5-847A5819C8D8}"
+  name="CDataIOLogPlot"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E3E58C9A-25EC-400A-8996-D8B3BFAF1FBA}"
+  name="CPageAttrCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E5B44220-9A48-4082-90E1-89A500B5A896}"
+  name="CGIDHatchOutput"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E5F68B1B-87DF-4D85-A8F1-D9DD977345D4}"
+  name="CExcel"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{EB7249A8-0729-42B9-9EFE-600C603C09C6}"
+  name="CManageFonts"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{EB769BD9-E18A-44ED-86BF-0D9C3F14CF40}"
+  name="CDataIOGEO5"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{EB83AB56-6D1D-4083-B4AC-AF07A6005A2E}"
+  name="CAx0"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{EB9FEFD2-1E9A-4948-8E82-56B10E788E9F}"
+  name="CGIDPage"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{ED2CC394-6873-4A14-BCE7-79F24D194D0E}"
+  name="CEntityAttrCollection"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{F79CCFD2-78E1-49B4-B06C-1DFC65E62C5F}"
+  name="CTableData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{F8E62880-DEC5-4491-B5FC-D84FAEE11300}"
+  name="CPDFDynaAPI"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{FC5849AC-6D2F-4A78-8C2A-474ABEDED905}"
+  name="CComboData"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{FE15DC76-ADD1-40A8-A721-41C9B28DAE10}"
+  name="clsDlgBrowser"
+  tlbid="{24E4D5CC-7B95-458F-BE79-9ECF19F2D6D1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8EF25B9E-B7F1-4FC3-B689-3C7E72690984}"
+  name="CollectionFactory"
+  tlbid="{36124F27-DD60-47E9-9B60-DB940F034729}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{083039C2-13F4-11D1-8B7E-0000F8754DA1}"
+  name="ICommonDialog"
+  tlbid="{F9043C88-F6F2-101A-A3C9-08002B2F49FB}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{F9043C87-F6F2-101A-A3C9-08002B2F49FB}"
+  name="ICommonDialogEvents"
+  tlbid="{F9043C88-F6F2-101A-A3C9-08002B2F49FB}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{0AB5A3D0-E5B6-11D0-ABF5-00A0C90FFFC0}"
+  name="IFileSystem"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2A0B9D10-4B87-11D3-A97A-00104B365C9F}"
+  name="IFileSystem3"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{42C642C1-97E1-11CF-978F-00A02463E06F}"
+  name="IDictionary"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{53BAD8C1-E718-11CF-893D-00A0C9054228}"
+  name="ITextStream"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{AADC65F6-CFF1-11D1-B747-00C04FC2B085}"
+  name="IScriptEncoder"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C7C3F5A0-88A3-11D0-ABCB-00A0C90FFFC0}"
+  name="IDrive"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C7C3F5A1-88A3-11D0-ABCB-00A0C90FFFC0}"
+  name="IDriveCollection"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C7C3F5A2-88A3-11D0-ABCB-00A0C90FFFC0}"
+  name="IFolder"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C7C3F5A3-88A3-11D0-ABCB-00A0C90FFFC0}"
+  name="IFolderCollection"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C7C3F5A4-88A3-11D0-ABCB-00A0C90FFFC0}"
+  name="IFile"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C7C3F5A5-88A3-11D0-ABCB-00A0C90FFFC0}"
+  name="IFileCollection"
+  tlbid="{420B2830-E718-11CF-893D-00A0C9054228}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{20DD1B9B-87C4-11D1-8BE3-0000F8754DA1}"
+  name="IDTPicker"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{20DD1B9D-87C4-11D1-8BE3-0000F8754DA1}"
+  name="DDTPickerEvents"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{232E4565-87C3-11D1-8BE3-0000F8754DA1}"
+  name="IMonthView"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{232E4569-87C3-11D1-8BE3-0000F8754DA1}"
+  name="DMonthViewEvents"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{603C7E7E-87C2-11D1-8BE3-0000F8754DA1}"
+  name="IUpDown"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{603C7E7F-87C2-11D1-8BE3-0000F8754DA1}"
+  name="DUpDownEvents"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{B09DE713-87C1-11D1-8BE3-0000F8754DA1}"
+  name="IAnimation"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{B09DE714-87C1-11D1-8BE3-0000F8754DA1}"
+  name="DAnimationEvents"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{FE387538-44A3-11D1-B5B7-0000C09000C4}"
+  name="IFlatSB"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{FE387539-44A3-11D1-B5B7-0000C09000C4}"
+  name="DFlatSBEvents"
+  tlbid="{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1EFB6594-857C-11D1-B16A-00C0F0283628}"
+  name="ITabStrip"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1EFB6595-857C-11D1-B16A-00C0F0283628}"
+  name="ITabStripEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1EFB6597-857C-11D1-B16A-00C0F0283628}"
+  name="ITabs"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{1EFB6599-857C-11D1-B16A-00C0F0283628}"
+  name="ITab"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2C247F21-8591-11D1-B16A-00C0F0283628}"
+  name="IImageList"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2C247F22-8591-11D1-B16A-00C0F0283628}"
+  name="ImageListEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2C247F24-8591-11D1-B16A-00C0F0283628}"
+  name="IImages"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2C247F26-8591-11D1-B16A-00C0F0283628}"
+  name="IImage"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{35053A20-8589-11D1-B16A-00C0F0283628}"
+  name="IProgressBar"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{35053A21-8589-11D1-B16A-00C0F0283628}"
+  name="IProgressBarEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{66833FE4-8583-11D1-B16A-00C0F0283628}"
+  name="IToolbar"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{66833FE5-8583-11D1-B16A-00C0F0283628}"
+  name="IToolbarEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{66833FE7-8583-11D1-B16A-00C0F0283628}"
+  name="IButtons"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{66833FE9-8583-11D1-B16A-00C0F0283628}"
+  name="IButton"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{66833FEB-8583-11D1-B16A-00C0F0283628}"
+  name="IButtonMenus"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{66833FED-8583-11D1-B16A-00C0F0283628}"
+  name="IButtonMenu"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8E3867A1-8586-11D1-B16A-00C0F0283628}"
+  name="IStatusBar"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8E3867A2-8586-11D1-B16A-00C0F0283628}"
+  name="IStatusBarEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8E3867A4-8586-11D1-B16A-00C0F0283628}"
+  name="IPanels"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{8E3867AA-8586-11D1-B16A-00C0F0283628}"
+  name="IPanel"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F049-858B-11D1-B16A-00C0F0283628}"
+  name="IListView"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F04A-858B-11D1-B16A-00C0F0283628}"
+  name="ListViewEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F04C-858B-11D1-B16A-00C0F0283628}"
+  name="IListItems"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F04E-858B-11D1-B16A-00C0F0283628}"
+  name="IListItem"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F050-858B-11D1-B16A-00C0F0283628}"
+  name="IColumnHeaders"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F051-858B-11D1-B16A-00C0F0283628}"
+  name="IColumnHeader"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F053-858B-11D1-B16A-00C0F0283628}"
+  name="IListSubItems"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{BDD1F055-858B-11D1-B16A-00C0F0283628}"
+  name="IListSubItem"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C74190B4-8589-11D1-B16A-00C0F0283628}"
+  name="ITreeView"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C74190B5-8589-11D1-B16A-00C0F0283628}"
+  name="ITreeViewEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C74190B7-8589-11D1-B16A-00C0F0283628}"
+  name="INodes"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C74190B8-8589-11D1-B16A-00C0F0283628}"
+  name="INode"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{C8A3DC00-8593-11D1-B16A-00C0F0283628}"
+  name="IControls"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{DD9DA660-8594-11D1-B16A-00C0F0283628}"
+  name="IComboItem"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{DD9DA662-8594-11D1-B16A-00C0F0283628}"
+  name="IComboItems"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{DD9DA664-8594-11D1-B16A-00C0F0283628}"
+  name="IImageCombo"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{DD9DA665-8594-11D1-B16A-00C0F0283628}"
+  name="DImageComboEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{F08DF952-8592-11D1-B16A-00C0F0283628}"
+  name="ISlider"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{F08DF953-8592-11D1-B16A-00C0F0283628}"
+  name="ISliderEvents"
+  tlbid="{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3B00804E-905A-11D1-B4AE-444553540000}"
+  name="IvsElastic"
+  tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3B008050-905A-11D1-B4AE-444553540000}"
+  name="IvsIndexTab"
+  tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3B008052-905A-11D1-B4AE-444553540000}"
+  name="IvsAwk"
+  tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3B008054-905A-11D1-B4AE-444553540000}"
+  name="_vsElasticEvents"
+  tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3B008055-905A-11D1-B4AE-444553540000}"
+  name="_vsIndexTabEvents"
+  tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3B008056-905A-11D1-B4AE-444553540000}"
+  name="_vsAwkEvents"
+  tlbid="{3B008041-905A-11D1-B4AE-444553540000}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2334D2B1-713E-11CF-8AE5-00AA00C00905}"
+  name="IVBDataObject"
+  tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{2334D2B3-713E-11CF-8AE5-00AA00C00905}"
+  name="IVBDataObjectFiles"
+  tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{3B7C8862-D78F-101B-B9B5-04021C009402}"
+  name="DRichTextEvents"
+  tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{859321D0-3FD1-11CF-8981-00AA00688B10}"
+  name="IOLEObjects"
+  tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{E9A5593C-CAB0-11D1-8C0B-0000F8754DA1}"
+  name="IRichText"
+  tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{ED117630-4090-11CF-8981-00AA00688B10}"
+  name="IOLEObject"
+  tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{48E59291-9880-11CF-9754-00AA00C00908}"
+  name="IInet"
+  tlbid="{48E59290-9880-11CF-9754-00AA00C00908}"
+  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub
+  iid="{48E59292-9880-11CF-9754-00AA00C00908}"
+  name="DInetEvents"
+  tlbid="{48E59290-9880-11CF-9754-00AA00C00908}"
+  proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+
+</assembly>
